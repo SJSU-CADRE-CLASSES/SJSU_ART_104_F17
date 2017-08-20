@@ -15,3 +15,19 @@ Class Website: https://github.com/ablanton/SJSU_ART_104_F17
 [GreenSheet](https://github.com/ablanton/SJSU_ART_104_F17/blob/master/GREENSHEET.md)
 | [Resources](https://github.com/ablanton/SJSU_ART_104_F17/blob/master/RESOURCES.md)
 | [Class Website](https://github.com/ablanton/SJSU_ART_104_F17)
+
+Resources
+---------
+
+### Aggregators
+
+### Artist
+
+### Artworks
+
+### Institutions
+
+### Writings 
+
+### Links
+
