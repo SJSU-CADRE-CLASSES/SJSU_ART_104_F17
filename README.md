@@ -15,3 +15,5 @@ Class Website: https://github.com/ablanton/SJSU_ART_104_F17
 [GreenSheet](https://github.com/ablanton/SJSU_ART_104_F17/blob/master/GREENSHEET.md)
 | [Resources](https://github.com/ablanton/SJSU_ART_104_F17/blob/master/RESOURCES.md)
 | [Class Website](https://github.com/ablanton/SJSU_ART_104_F17)
+
+[Reading 1](http://www.ctrl-z.net.au/articles/issue-6/granata-processing-lampreys/)

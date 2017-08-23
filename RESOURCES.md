@@ -31,3 +31,21 @@ Resources
 
 ### Links
 
+8/23
+
+#### Videos
+https://vimeo.com/86922461
+https://vimeo.com/50510864
+
+#### other
+http://switch.sjsu.edu/
+https://web.archive.org/web/20040910063201/http://switch.sjsu.edu:80/nextswitch/switch_engine/front/front.php?artc=111
+https://github.com/SJSU-CADRE
+https://www.windows93.net/
+https://en.wikipedia.org/wiki/Bruce_Nauman
+http://nasaprospect.com/
+https://en.wikipedia.org/wiki/The_Million_Dollar_Homepage
+http://www.generative-gestaltung.de/about
+
+#### Github Desktop
+https://desktop.github.com/
