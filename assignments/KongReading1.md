@@ -1,4 +1,4 @@
-## READING ONE RESPONSE
+# READING ONE RESPONSE
 ![](https://media.giphy.com/media/X5nt6gIpDhu36/giphy.gif)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Granata seemed to be saying that a photo of an object is nothing more than an imitation of that object. Similarly, a photo that you get from Google image of a Lamprey is basically an imitation of a Lamprey. 
