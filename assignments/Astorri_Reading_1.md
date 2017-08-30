@@ -1,6 +1,6 @@
 	READING RESPONSE 1
 	
-	Searching the term “Lamprey”, in any search engine is sure to produce some of the 
+		Searching the term “Lamprey”, in any search engine is sure to produce some of the 
 	creepiest images on the internet. These blood sucking parasitic fish are known to 
 	latch onto their prey, bleeding them dry until they move on to the next host. 
 	The images shown in the search results is meant to introduce the viewer to 
@@ -12,7 +12,7 @@
 	According to the article, the “unseen” in the Lamprey’s case is something
 	we do not see in our normal everyday life, which would be the mouths and teeth of these creatures. 
 
-	I find this philosophy to be enlightening, as it allows us to view the world
+		I find this philosophy to be enlightening, as it allows us to view the world
 	in many different ways aside from what we are used to in everyday life. 
 	No person goes through their day looking at Lamprey’s the entire time, 
 	unless one is specifically studying Lampreys. This sentiment reveals 
@@ -27,7 +27,7 @@
 	without even knowing the process is happening. While in progress shots are included, 
 	the viewer would not be able to tell it was a Lamprey unless it was told to them directly.
  
-	I have always enjoyed the genre of art which has transformed something unsightly, 
+		I have always enjoyed the genre of art which has transformed something unsightly, 
 	or otherwise unremarkable, into a thing of beauty. 
 	Lamprey’s are clearly terrifying creatures, but through the use of programming and art, 
 	we are able to view them in a new, and wondrous way. 
