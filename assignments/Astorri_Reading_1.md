@@ -1,5 +1,7 @@
 	READING RESPONSE 1
 	
+	![](https://media0.giphy.com/media/l1EtcvUP1q11zHd3q/giphy.gif)
+	
 		Searching the term “Lamprey”, in any search engine is sure to produce some of the 
 	creepiest images on the internet. These blood sucking parasitic fish are known to 
 	latch onto their prey, bleeding them dry until they move on to the next host. 
