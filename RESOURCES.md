@@ -34,21 +34,36 @@ Resources
 8/23
 
 #### Videos
-https://vimeo.com/86922461
-https://vimeo.com/50510864
+1. https://vimeo.com/86922461
+2. https://vimeo.com/50510864
 
 #### other
-http://switch.sjsu.edu/
-https://web.archive.org/web/20040910063201/http://switch.sjsu.edu:80/nextswitch/switch_engine/front/front.php?artc=111
-https://github.com/SJSU-CADRE
-https://www.windows93.net/
-https://en.wikipedia.org/wiki/Bruce_Nauman
-http://nasaprospect.com/
-https://en.wikipedia.org/wiki/The_Million_Dollar_Homepage
-http://www.generative-gestaltung.de/about
-http://radio.garden/live/cumberland-md/wcbcradio/
-https://threejs.org/
-http://news-lab-trends-experiment.appspot.com/
+1. http://switch.sjsu.edu/
+2. https://web.archive.org/web/20040910063201/http://switch.sjsu.edu:80/nextswitch/switch_engine/front/front.php?artc=111
+3. https://github.com/SJSU-CADRE
+4. https://www.windows93.net/
+5. https://en.wikipedia.org/wiki/Bruce_Nauman
+6. http://nasaprospect.com/
+7. https://en.wikipedia.org/wiki/The_Million_Dollar_Homepage
+8. http://www.generative-gestaltung.de/about
+9. http://radio.garden/live/cumberland-md/wcbcradio/
+10. https://threejs.org/
+11. http://news-lab-trends-experiment.appspot.com/
 
 #### Github Desktop
 https://desktop.github.com/
+
+8/30
+
+1. http://www.ctrl-z.net.au/articles/issue-6/granata-processing-lampreys/
+2. https://vimeo.com/112175204
+3. http://www.cc.com/video-clips/9jcm4g/the-colbert-report-1997-flashback
+4. https://www.youtube.com/watch?v=0pDE4VX_9Kk
+5. https://www.youtube.com/watch?v=wvHa2y-pKD8
+6. https://www.youtube.com/watch?v=6VMRAGxjOoA
+7. http://blog.blprnt.com/
+8. https://en.wikipedia.org/wiki/Blockchain
+9. https://twitter.com/hardmaru/status/902567169506009088
+10. https://www.youtube.com/watch?v=2eXCKFMzg2w
+11. https://web.archive.org/web/20021018210444/http://switch.sjsu.edu:80/switch/SwitchV1N2/tocV1N2.html
+
