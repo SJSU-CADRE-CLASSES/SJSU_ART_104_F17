@@ -73,8 +73,8 @@ Schedule
 
 | Class_Date          |                                                                                                                                                                        |
 | ------------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Week 1* 08/23      | Course Introduction /Overview of Syllabus ** Introductions (Instructor-Students) Git Registration ** **Reading 1: Assigned in Class** |
-| *Week 2* 08/30      | **Reading 1 Due** ** Presentation + Discussion ** **Reading 2: Assigned in Class** ** Introduction to HTML |
+| *Week 1* 08/23      | Course Introduction /Overview of Syllabus ** Introductions (Instructor-Students) Git Registration ** **Reading 1: [Processing/Lampreys](http://non.copyriot.com/processinglampreys-photo-fiction-as-digital-parasite-aesthetics/)** |
+| *Week 2* 08/30      | **Reading 1 Due** ** Presentation + Discussion ** **Reading 2: [SWITCH Archive](https://web.archive.org/web/20040619155516/http://switch.sjsu.edu:80/web/archive.html)** ** Introduction to HTML |
 | *Week 3* 09/06      | **Reading 2 Due** ** Presentation + Discussion ** **Reading 3: Assigned in Class** ** Website Setup and Git Pipeline |
 | *Week 4* 09/13      | **Reading 3 Due** ** Presentation + Discussion ** **Reading 4: Assigned in Class** ** HTML 2 |
 | *Week 5* 09/20      | **Reading 4 Due** ** Presentation + Discussion ** **Reading 5: Assigned in Class** ** Forming SWITCH Groups and Begin Working on site design|
