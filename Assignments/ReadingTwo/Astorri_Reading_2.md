@@ -1,3 +1,6 @@
+*READING 2*
+  
+  
   The role of women in the video game industry has always, in my mind, been a very significant issue. 
 In the fledgling days of video games, the consumer base mostly consisted of male gamers, especially in online video games such as Quake or Counter Strike. 
 In a male dominated field such as this, it made the process of incorporating females into the player base especially difficult on the part of the girls who wanted to play. 
