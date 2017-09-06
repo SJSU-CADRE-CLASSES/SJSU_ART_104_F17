@@ -1,6 +1,6 @@
 <title> Reading 2: Interview with Linda Jacobson </title> <p> </p>
 
 <body>
-
+<br>
 	I can’t believe VR was actually a huge controversial topic and thing back in the day. Linda Jacobson’s interview brought out the same or even more ideas in modern day VR issues. This was back in the 1990’s too. This is currently almost 20 years after where the ideas and vision of the 90’s VR are almost here. I say almost here because we haven’t gotten fully transcended into VR yet where our minds are disconnected from our bodies. One trippy thing is that Linda even spent a lot of time talking about this out of body experience too. She spoken about gender issues in VR where it wouldn’t matter but in this day and age, we gotten into sexuality and identification instead of just gender now. In the 90’s, gender equality was kicking in and now that category has expanded into sub-categories of bi, asexual, transgender, queer, identification, and undecided. In the VR world, a lot of these identifications wouldn’t matter while online because the player would take on another identity online. This still holds true even today unless the player releases their social human identity. In the 90’s, the easiest way to do this was to get into the arcade without being rich or doing research about VR to get into this make belief identity. In modern day, anyone can access into VR through any social platform to be anyone. Socializing with different identities or roleplaying has become a norm in this day and age. It seems like VR still has the same topics with a little more added to it. 
-</body>
+</br> </body>
