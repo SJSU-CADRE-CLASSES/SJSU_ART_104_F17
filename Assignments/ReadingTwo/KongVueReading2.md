@@ -2,4 +2,4 @@ In The Body, Post Humans and Cyborgs: The Influence of Politics of Identity and 
 
 The "Dirt" on MUDs by Monica Vasilescu
 
-In the nut shell MUD stands for multi virtual environment on the internet. I wonder if YouTube is a good example. In this article MUDS are more related to early role-playing games. 
+In the nut shell MUD stands for multi virtual environment on the internet. I wonder if YouTube is a good example. In this article MUDS are more related to early role-playing games. MUDs has evolved so much. I think social media sites like Facebook are MUDs because it serves as a platform for others to send message to one another. I do not really know what the author mean by “dirt” on MUDS as most of the article expanded on the definition and function of MUDS
