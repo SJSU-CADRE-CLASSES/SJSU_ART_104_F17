@@ -10,4 +10,4 @@ https://www.w3schools.com/w3css/w3css_responsive.asp
 
 ![alt text](http://cadre.sjsu.edu/wp-content/uploads/2016/05/slider_grid.jpg)
 
-![Leily's Mock-up](https://imgur.com/a/CyNqL)
+![Leily's Mock-up](http://i.imgur.com/hKmIPXL.jpg)
