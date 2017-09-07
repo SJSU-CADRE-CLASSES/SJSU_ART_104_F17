@@ -67,3 +67,16 @@ https://desktop.github.com/
 10. https://www.youtube.com/watch?v=2eXCKFMzg2w
 11. https://web.archive.org/web/20021018210444/http://switch.sjsu.edu:80/switch/SwitchV1N2/tocV1N2.html
 
+9/6
+
+1. https://www.ethereum.org/
+2. https://economicspace.agency/
+3. https://www.youtube.com/watch?v=JEeR9jUsiyo
+4. https://web.archive.org/web/20130423042105/http://futuremyth.net:80/
+5. https://www.canopycanopycanopy.com/about
+6. http://mashable.com/2017/09/05/facebook-ai-bots-expressions/#eiNJvrQOy5q4
+7. https://medium.com/i-data/fake-friends-with-real-benefits-eec8c4693bd3
+8. http://nickbriz.com/thoughtsonglitchart/
+9. http://www.artspace.com/magazine/interviews_features/trend_report/post_internet_art-52138
+10. https://web.archive.org/web/20040619151906/http://switch.sjsu.edu:80/v6n2/articles.html
+
