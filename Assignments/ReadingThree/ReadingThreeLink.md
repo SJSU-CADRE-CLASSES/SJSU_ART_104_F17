@@ -1,0 +1,1 @@
+Just in case you did not see it on the greensheet, you can find Reading 3 here: Reading 3: http://www.arpajournal.net/value-slips-away/ ** with suplemental https://www.foam.space/ and https://k-s-m-s.com/projects/BkeXmHsLZ **
