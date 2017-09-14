@@ -9,6 +9,8 @@ participating in the community of foamspace. EPS Geofoam is a widely used materi
 streets, and our work places. Since the material is so light weigh and easy to make, it is used as a fill material for instullation. 
 The Foamspace installation consisted of hundreds of blocks that were of standard size, these blocks were later resold and used in other 
 projects.
+
+
 Bitcoin became popular very recently and has taken off in the tech industry. 
 It is somewhat complicating to understand so it is less understood however, those who do understand the market have made millions of
 dollars. The block chain has a public ledger that has data arranged in chronological order. Anyone can access and read this data to monitor
