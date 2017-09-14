@@ -1,6 +1,6 @@
 Reading 3
 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFoam space is an a idea to represent the metaphore for the bitcoin blockchain. It is represented by
+Foam space is an a idea to represent the metaphore for the bitcoin blockchain. It is represented by
 using expanded polystyrene(EPS) geofoam blocks, arranged in a certain way to give us the visuals of a block chain. This display was hosted 
 by the New museum for contemporary Art in new york city, one of ths torefronts for Art and Architecture. Bitcoin is on the rise as it gives
 us a safer and more reliable way to transfer and receive money. Since bitcoin is a public ledeger with peer-to-peer monetary settlements,it
@@ -9,7 +9,7 @@ participating in the community of foamspace. EPS Geofoam is a widely used materi
 streets, and our work places. Since the material is so light weigh and easy to make, it is used as a fill material for instullation. 
 The Foamspace installation consisted of hundreds of blocks that were of standard size, these blocks were later resold and used in other 
 projects.
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBitcoin became popular very recently and has taken off in the tech industry. 
+Bitcoin became popular very recently and has taken off in the tech industry. 
 It is somewhat complicating to understand so it is less understood however, those who do understand the market have made millions of
 dollars. The block chain has a public ledger that has data arranged in chronological order. Anyone can access and read this data to monitor
 and study it. All the transactions on the blockchain are monitor and published by miners who collects bitcoins using there GPU power.
