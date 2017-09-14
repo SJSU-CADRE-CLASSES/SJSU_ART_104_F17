@@ -80,3 +80,24 @@ https://desktop.github.com/
 9. http://www.artspace.com/magazine/interviews_features/trend_report/post_internet_art-52138
 10. https://web.archive.org/web/20040619151906/http://switch.sjsu.edu:80/v6n2/articles.html
 
+9/13
+1. https://blockgeeks.com/guides/dapps-the-decentralized-future/
+2. https://www.ethereum.org/
+3. https://dapps.ethercasts.com/
+4. http://emojillionaire.com/
+5. https://mooncatrescue.com/
+6. https://ponzi-unlimited.herokuapp.com/
+7. http://rosa-menkman.blogspot.com/
+8. https://matchpool.co/
+9. http://www.thedarkenlightenment.com/the-dark-enlightenment-by-nick-land/
+10. https://memefactory.io/
+11. https://github.com/district0x
+12. http://idyrself.com/
+13. https://www.youtube.com/watch?v=eJyMEkb_8to (eye phone)
+14. https://www.youtube.com/watch?v=lc7scxvKQOo (social hacking)
+15. https://www.versobooks.com/books/2163-extrastatecraft
+16. https://www.youtube.com/watch?v=Q0NzALRJifI (Metropolis)
+17. http://www.computersclub.org/
+18. https://blockmason.io/projects/foundation/
+19. https://blockgeeks.com/guides/dapps-the-decentralized-future/
+20. https://vimeo.com/48919422
