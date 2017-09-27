@@ -5,9 +5,9 @@ Identify Yourself by Kyrstal South
 After reading "Identifying yourself", I understand that Krystal is expressing her opinion on the future of society and our culture with the 
 continued use of the internet and technology. She says that after this generation no one would know what it was like to live in a world 
 without the internet. Therefore, they will grow up fundamentally different and perceive the world differently as we did. She expresses her 
-need to have computers and the internet to function with society, it has shaped her external and internal self. before the internet information 
-shariong was slow and lackluster. We would need to travel or wait for data to be consumed, in the form of physical paper like books or sharing data in person.
-With the invention of the internet we now have what krystal calls the quick addiction, which is the ability to consume data at an increase rate that
+need to have computers and the internet to function with society, it has shaped her external and internal self. before the internet,  
+sharing information was slow and lackluster. We would need to travel or wait for data to be consumed, in the form of physical paper like books or sharing data in person.
+With the invention of the internet we now have what South calls the "quick addiction", which is the ability to consume data at an increase rate that
 has allowed for our creativity and accomplishments to thrive. The ability to access data on the go and have information at the touch of a
 button has allowed us to do things we were never able to before. With the invention of the wireless internet it has extended our knowledge from 
 home base computers to always have this infinite database in the space of our pocket. 
