@@ -10,6 +10,5 @@ South makes very relevant points regarding the online world that we inhabit; it 
  which allows for exposure and business that was not possible before the age of the Internet. It allows for critical feedback and
  information collection about what kind of people like your work, especially with the like/rating system that many websites and apps have integrated.
 
-The more controversial side - a side which causes this worrying change in how we choose to act online and in person - stems from the ability
- to edit.
+The more controversial side - a side which causes this worrying change in how we choose to act online and in person - stems from the ability to edit. <em>How</em> we present ourselves, and what we are choosing to show or hide, are the obsessions of the Internet user. And this complusion to edit has slowly inserted itself into our daily lives, even away from the computer. With the unavoidable merging of electronic devices with every day life, the "Internet" slowly escaped the confines of the computer screen. It follows us, appearing almost constantly whether it be by electronics, by those who sit near us, or in our minds. For many, the first actions we do when we wake up or meet a person are to check our phones and social media. It is almost terrifying to see how our online identities are leaking into our real lives, and possibly affecting them.
 </p>
