@@ -101,3 +101,19 @@ https://desktop.github.com/
 18. https://blockmason.io/projects/foundation/
 19. https://blockgeeks.com/guides/dapps-the-decentralized-future/
 20. https://vimeo.com/48919422
+
+9/27
+
+1. https://www.youtube.com/watch?v=fOCmuiRFkZE&list=TLgxmTdgHJY9A
+2. http://internet-map.net/
+3. http://therealannhirsch.com/
+5. https://www.youtube.com/watch?v=bkhWh3ZzHQY
+6. https://vimeo.com/90254672
+7. https://www.youtube.com/watch?v=XV6dLhepx6w&t=179s
+8. https://www.youtube.com/watch?v=OxPyN6IK1tM
+9. https://www.instagram.com/amaliaulman/?hl=en
+10. https://petapixel.com/2014/09/11/dutch-girl-fakes-5-week-vacation-south-east-asia-posting-phoney-photos-facebook/
+11. https://mastodon.social/about
+12. http://www.parkerito.com/
+13. https://en.wikipedia.org/wiki/Netochka_Nezvanova_(author)
+14. http://www.vasulka.org/Steina/Steina_index.html
