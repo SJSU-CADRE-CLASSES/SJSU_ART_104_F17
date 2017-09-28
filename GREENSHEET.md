@@ -78,7 +78,7 @@ Schedule
 | *Week 3* 09/06      | **Reading 2 Due** ** Presentation + Discussion ** **Reading 3: [http://www.arpajournal.net/value-slips-away/](http://www.arpajournal.net/value-slips-away/)** ** with suplemental [https://www.foam.space/](https://www.foam.space/) and [https://k-s-m-s.com/projects/BkeXmHsLZ](https://k-s-m-s.com/projects/BkeXmHsLZ) ** Website Setup and Git Pipeline |
 | *Week 4* 09/13      | **Reading 3 Due** ** Presentation + Discussion ** **Reading 4: https://vimeo.com/232659058** ** HTML 2 |
 | *Week 5* 09/20      | **Reading 4 Due** ** Presentation + Discussion ** **Reading 5: http://idyrself.com/** ** Forming SWITCH Groups and Begin Working on site design|
-| *Week 6* 09/27      | **Reading 5 Due** ** Presentation + Discussion ** **Reading 6: Assigned in Class** ** Final Paper Requirements Posted to the blog. Students will present their ideas on 11/11 to the class. |
+| *Week 6* 09/27      | **Reading 5 Due** ** Presentation + Discussion ** **Reading 6: [https://medium.com/after-us/towards-a-poetics-of-artificial-superintelligence-ebff11d2d249](https://medium.com/after-us/towards-a-poetics-of-artificial-superintelligence-ebff11d2d249)** ** Final Paper Requirements Posted to the blog. Students will present their ideas on 11/11 to the class. |
 | *Week 7* 10/04      | **Reading 6 Due** ** Presentation + Discussion ** **Reading 7: Assigned in Class** ** Group Work Beginning Research For Final |
 | *Week 8* 10/11      | **Reading 7 Due** ** Presentation + Discussion ** **Reading 8: Assigned in Class** ** Research and in class work on papers |
 | *Week 9* 10/18      | **Reading 8 Due** ** Presentation + Discussion ** **Reading 9: Assigned in Class** ** Research and in class work on papers |
