@@ -1,5 +1,5 @@
-Our Title: How technology changes humanity.
-           How society changes technology
+Our Title: How Modern Technology Changes Humanity.
+           How Society Changes Technology
 
 Our main concern, regarding the topic we chose, is the discussion that technology has changed the way we behave nowadays.
 
