@@ -1,0 +1,25 @@
+This year’s election seems to have stirred up more than controversy. The number of hate crimes in the U.S. Has spiked by 20% since this recent election. Among this is the rise of the alt-right, a terrifying and heartbreaking reality. They claim freedom of speech, but shouldn’t there be a limit if they are inciting violent acts? The events that took place in Charlottesville were a harsh reminder of the true intentions this dangerous group has. In recent news 
+
+
+-hate speech 
+-alt-right
+    -silicon valley/google
+    -past and present(Charlottesville/Trump era)
+    -caroline sinder
+-distributive websites
+-arguments
+    -free speech
+-possibilities/consequences
+     -how it will affect us in the future
+     -what does this mean for us?
+     -what if the alt-right ACTUALLY built their own internet
+
+In the age of technology, how did the rise of the alt-right come into play and what are the implications for our future.
+
+Internet allowed multiple platforms for the alt-right to come together (anonymous if they felt the need)
+4chan, reddit, daily stormer, alternative right, breibart news
+      -	Trump’s election allowed the alt-right to push their agenda/message/ideologies 
+      
+
+Thesis:
+
