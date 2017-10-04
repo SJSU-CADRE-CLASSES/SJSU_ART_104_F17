@@ -117,3 +117,24 @@ https://desktop.github.com/
 12. http://www.parkerito.com/
 13. https://en.wikipedia.org/wiki/Netochka_Nezvanova_(author)
 14. http://www.vasulka.org/Steina/Steina_index.html
+
+10/4
+
+1. http://thewrong.org/
+2. https://en.wikipedia.org/wiki/Eyebeam_(organization)
+3. http://rhizome.org/community/opportunities/
+4. https://www.tensorflow.org/
+5. https://occupyhere.org/
+6. https://www.stateofthedapps.com/dapps/mooncatrescue
+7. https://blockchain-expo.com/northamerica/
+8. http://rhizome.org/
+9. http://okfoc.us/
+10. http://rapidmix.goldsmithsdigital.com/
+11. http://www.activation-nodeplus.com/
+12. https://qz.com/1086797/theres-an-alt-right-version-of-everything/
+13. http://0100101110101101.org/
+14. http://resn.co.nz/
+15. https://vimeo.com/147751376
+16. http://www.studio-venezia.com/
+17. https://www.youtube.com/watch?v=mSdYyu4eJwk
+18. https://www.google.com/search?q=types+of+machine+learning+algorithms&oq=types+of+machine+learning+&gs_l=psy-ab.3.0.0l10.2683.2683.0.4451.1.1.0.0.0.0.221.221.2-1.1.0....0...1.1.64.psy-ab..0.1.221....0.KaZhYuACRTQ
