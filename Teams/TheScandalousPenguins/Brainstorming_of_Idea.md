@@ -1,5 +1,6 @@
 Our Title: How technology changes humanity
-    How society changes technology
+           
+           How society changes technology
 
 Our main concern, regarding the topic we chose, is the discussion that technology has changed the way we behave nowadays.
 
