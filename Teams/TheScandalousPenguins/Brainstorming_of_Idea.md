@@ -20,6 +20,5 @@ Games without necessities
 War between Siri and Cortana
 Between two AI
 
-An example is an app called  Forest. It helps you stay away from smart devices. One person can record his or her environmental-friendly behaviors on the app, then at the same time, a tree will be planted somewhere on the earth based on the person’s contribution.
-
-Help people focus on their work. If they achieve a goal, there will be a real tree planted on the earth.
+An example is an app called Forest. Put down your phone and focus on what's more important in your life. Procrastination.
+Help people focus on their work, rather than playing computer games or watch videos. If they achieve a goal, there will be a real tree planted on the earth.
