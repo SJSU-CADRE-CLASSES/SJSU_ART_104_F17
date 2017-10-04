@@ -1,6 +1,6 @@
 ﻿Reading 6: 
 
-      In the article, Nora N. Khan describes the being known as ASI, an artificial superintelligence capable 
+    In the article, Nora N. Khan describes the being known as ASI, an artificial superintelligence capable 
 of being in any form as well as surpassing the intelligence of humans. Khan states how the ASI believes us to 
 be expendable in its presence, with it capable of bringing us down at any moment. Currently, technology is 
 bringing us further along the path to artificial intelligence, with computers growing more powerful every year. 
@@ -13,7 +13,7 @@ green or gray, there was no in-between back then. Khan states how humans are so 
 image, and this recalled how it is stated in the Bible how God created Humanity in his image, does this mean we are 
 playing God by creating AI?
 
-      Khan goes on to describe a book by a man named Nick Bostrom called Superintelligence: Paths, Dangers, Strategies. 
+   Khan goes on to describe a book by a man named Nick Bostrom called Superintelligence: Paths, Dangers, Strategies. 
 According to Khan, the book describes the pitfalls and challenges that arise when developing a superintelligence 
 capable of surpassing human thought, eventually leading to a societal collapse after they take over. The ideas 
 become increasingly abstract, all leading to the same end: “a system of emulated digital workers devoid of consciousness;
@@ -22,7 +22,7 @@ This a frightening image indeed, as it would seem if ASI is developed at an adeq
 control over us and decided to either destroy or enslave those it wishes to keep. It also brings about what Khan
 considers to be the most “chilling metaphor” of the book: how humans are like children, playing with an undetonated bomb. 
 
-      There is no denying AI development can lead to disastrous consequences, some on the level would could never fathom. 
+   There is no denying AI development can lead to disastrous consequences, some on the level would could never fathom. 
 This has been a trend in science fiction for decades now, with movies such as The Terminator, or 2001: A Space Odyssey. 
 If something we control has an intelligence capable of surpassing our own, how long would it take to question why it is 
 being controlled in the first place? Any reasonably intelligent being would have this thought in their minds, as if our 
