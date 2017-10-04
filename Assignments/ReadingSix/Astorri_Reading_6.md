@@ -1,6 +1,6 @@
 ﻿Reading 6: 
 
-    In the article, Nora N. Khan describes the being known as ASI, an artificial superintelligence capable 
+   In the article, Nora N. Khan describes the being known as ASI, an artificial superintelligence capable 
 of being in any form as well as surpassing the intelligence of humans. Khan states how the ASI believes us to 
 be expendable in its presence, with it capable of bringing us down at any moment. Currently, technology is 
 bringing us further along the path to artificial intelligence, with computers growing more powerful every year. 
