@@ -22,3 +22,6 @@ https://qz.com/1086797/theres-an-alt-right-version-of-everything/
 
 Hate Speech in Social Media: An Exploration of the Problem and Its Proposed Solutions
 http://scholar.colorado.edu/jour_gradetds/15/
+
+
+https://en.wikipedia.org/wiki/Manufacturing_Consent
