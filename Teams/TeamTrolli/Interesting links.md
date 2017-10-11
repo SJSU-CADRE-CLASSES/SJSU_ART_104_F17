@@ -1,3 +1,6 @@
+Noam Chomsky
+-manufacturing consent trailer
+
 
 Why the alt-right can’t build an alt-internet
 https://www.theverge.com/2017/8/21/16180614/charlottesville-daily-stormer-alt-right-internet-domain
