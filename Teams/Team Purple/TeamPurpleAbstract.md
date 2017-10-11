@@ -15,7 +15,7 @@ Outline
 
 •	Brief introduction to block-chain(pros/cons)
 
-•	How to incorporate AI into block-chain technology?
+•	Ways of incorporating AI into block-chain technology
 
 •	Brief introduction to quantum mechanics.
 
