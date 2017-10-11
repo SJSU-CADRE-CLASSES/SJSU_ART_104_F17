@@ -16,3 +16,6 @@ https://slate.com/technology/2017/08/the-alt-right-wants-to-build-its-own-intern
 
 There’s an alt-right version of everything
 https://qz.com/1086797/theres-an-alt-right-version-of-everything/
+
+Hate Speech in Social Media: An Exploration of the Problem and Its Proposed Solutions
+http://scholar.colorado.edu/jour_gradetds/15/
