@@ -5,3 +5,7 @@ I thought that the connect between blood and oil was intriguing. Timofeeva menti
 “that oil was produced from organic matter—from the decomposition of various living or dead organisms, from bacteria to dinosaurs.” I am not sure it this is true but I do remember learning something similar in biology class.  
 
 Towards the end of the article Timofeeva makes some interesting observations about oil. She states that slaves, workers, and oil are all exploited. “The worker is exploited as a labor force, the slave is exploited as a “black” labor force, and oil is exploited as a natural resource.” I guess her point was to say that oil is the driving force behind capitalism. 
+
+After the reading I did try to understand how this reading of materialism and oil correlate to our discussion on block chain and distributed databases. I can sort of see how we can incorporate block chain with oil. Seeing that oil is a finite matter and that value will depend on how much there is. In the struggle to control and distribute oil properly and avoid “petroleum wars” this is probably the best way to go.
+
+
