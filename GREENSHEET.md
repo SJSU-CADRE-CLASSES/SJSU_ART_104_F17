@@ -81,7 +81,7 @@ Schedule
 | *Week 6* 09/27      | **Reading 5 Due** ** Presentation + Discussion ** **Reading 6: [https://medium.com/after-us/towards-a-poetics-of-artificial-superintelligence-ebff11d2d249](https://medium.com/after-us/towards-a-poetics-of-artificial-superintelligence-ebff11d2d249)** ** Final Paper Requirements Posted to the blog. Students will present their ideas on 11/11 to the class. |
 | *Week 7* 10/04      | **Reading 6 Due** ** Presentation + Discussion ** **Reading 7: https://schloss-post.com/pretend-bot-rehumanize-web/** ** Group Work Beginning Research For Final |
 | *Week 8* 10/11      | **Reading 7 Due** ** Presentation + Discussion ** **Reading 8: http://www.e-flux.com/journal/84/149335/ultra-black-towards-a-materialist-theory-of-oil/** ** Research and in class work on papers |
-| *Week 9* 10/18      | **Reading 8 Due** ** Presentation + Discussion ** **Reading 9: Assigned in Class** ** Research and in class work on papers |
+| *Week 9* 10/18      | **Reading 8 Due** ** Presentation + Discussion ** **Reading 9: https://www.youtube.com/watch?v=0pDE4VX_9Kk parts 1-4** ** Research and in class work on papers |
 | *Week 10* 10/25     | **Reading 9 Due** ** Presentation + Discussion ** **Reading 10: Assigned in Class** ** Research and in class work on papers |
 | *Week 11* 11/01     | No Class Due to ATC (Advancement to Candidacy) ** Final Paper Requirements Posted to the git. Students will present their ideas on 11/08 to the class. |
 | *Week 12* 11/08     | Final Presentation Proposals + Discussion/Critique **Reading 10: Assigned in Class** |
