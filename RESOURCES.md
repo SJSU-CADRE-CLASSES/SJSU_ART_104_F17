@@ -152,3 +152,15 @@ https://www.youtube.com/watch?v=mua8Pr6uRso
 https://www.google.com/search?q=chihuahua+or+muffin&tbm=isch&source=iu&pf=m&ictx=1&fir=opJov8lXnCaeXM%253A%252CBQtOHelpMnORDM%252C_&usg=__3lZIAZCDRp_PgIMiHXa1YfaFFb4%3D&sa=X&ved=0ahUKEwiIkfiupunWAhVpslQKHQq0BNQQ9QEIKDAA#imgrc=opJov8lXnCaeXM:
 https://www.youtube.com/watch?v=7LVsiP0s33A
 https://medium.com/@blprnt
+
+10/18
+http://luyang.asia/
+https://www.youtube.com/watch?v=SJndr9mRGgE
+https://vimeo.com/237568588
+http://www.labiennale.org/en
+https://transmediale.de/
+http://whitney.org/Exhibitions/2017Biennial
+https://www.artbasel.com/miami-beach
+http://file.org.br/highlight/file-2018-call-for-entries/
+https://www.aec.at/prix/en/
+http://www.documenta14.de/en/
