@@ -138,3 +138,17 @@ https://desktop.github.com/
 16. http://www.studio-venezia.com/
 17. https://www.youtube.com/watch?v=mSdYyu4eJwk
 18. https://www.google.com/search?q=types+of+machine+learning+algorithms&oq=types+of+machine+learning+&gs_l=psy-ab.3.0.0l10.2683.2683.0.4451.1.1.0.0.0.0.221.221.2-1.1.0....0...1.1.64.psy-ab..0.1.221....0.KaZhYuACRTQ
+
+10/11
+https://schloss-post.com/pretend-bot-rehumanize-web/
+https://www.google.com/search?q=puppy+or+fried+chicken&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjjwMDJpunWAhVojVQKHY78ATcQsAQIJQ&biw=1701&bih=1003#imgrc=m-yowsrpr0FXhM:
+https://www.magicleap.com/
+http://i-will-say-whatever-you-want-in-front-of-a-pizza.schloss-post.com/
+https://www.google.com/search?q=stelarc&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjpgKS-q-nWAhVCqFQKHW9yDsAQ_AUICigB&biw=1701&bih=1003#imgrc=IcceJQqUVL5gyM:
+https://www.youtube.com/watch?v=zpRA7S1auwc
+https://www.google.com/search?q=transhumanism&oq=transhu&aqs=chrome.0.0l2j69i57j0l3.3216j0j1&sourceid=chrome&ie=UTF-8
+https://www.youtube.com/watch?v=lyy7y0QOK-0
+https://www.youtube.com/watch?v=mua8Pr6uRso
+https://www.google.com/search?q=chihuahua+or+muffin&tbm=isch&source=iu&pf=m&ictx=1&fir=opJov8lXnCaeXM%253A%252CBQtOHelpMnORDM%252C_&usg=__3lZIAZCDRp_PgIMiHXa1YfaFFb4%3D&sa=X&ved=0ahUKEwiIkfiupunWAhVpslQKHQq0BNQQ9QEIKDAA#imgrc=opJov8lXnCaeXM:
+https://www.youtube.com/watch?v=7LVsiP0s33A
+https://medium.com/@blprnt
