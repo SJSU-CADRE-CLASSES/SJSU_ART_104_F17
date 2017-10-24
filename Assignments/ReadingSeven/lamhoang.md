@@ -12,10 +12,11 @@ the same results. Sebastion say's To me, it’s obviously important to make a di
 planetary-scale computational system that is constantly optimizing itself toward efficiency and profitability, there is no need for that 
 distinction. Some issues that come from being a software extention is that you could be fired very easily and discarded, and another person 
 could fill your spot immediately.
-he then talks about Lean platforms like fiverr and uber which are companies who provide the framework for the workers, the workers have to
+
+He then talks about Lean platforms like fiverr and uber which are companies who provide the framework for the workers, the workers have to
 take care of the rest on there end. Like marketing, planning, work hours, pricing, tools, healthcare, and training. They are essntially 
 software extensions, serving entrepreneuers who reap the benefits.
-Sebastian wants to basically see AI based on collaboration, on curiosity instead of surveillance , on fiction, on small data, on weird data,
-and on ambiguity. 
+
+Sebastian wants to basically see AI based on collaboration, on curiosity instead of surveillance , on fiction, on small data, on weird data,and on ambiguity. He wants to see building an AI communual and playful which could help with peoples endeavor and also help them reflect and think.
 
   
