@@ -8,7 +8,9 @@ ASI will surpass the brightest minds and the most advanced hard drives and it’
 in which direction the world will be steered towards. It’ll have a reasoning different than the right or wrong we have,
 thus giving it the possibility of anything and everything. As much as we would imagine ASI like us, 
 its communication, processes, behavior, language, travel etc. could be unlike anything we have ever seen or imagined
-could exist. I wonder what made Khan explain the possible aspects of ASI, with the concepts she chose to in the article. 
+could exist. 
+
+I wonder what made Khan explain the possible aspects of ASI, with the concepts she chose to in the article. 
 I think it’s great and relatable to use easy-to-understand notions to explain the bizarre form that AI can take. 
 Take an agent for example, they have no attachments, they get work done, secures its present and future, etc. 
 AI can, like this agent, generate pure action with perfect result, able to manipulate resources, people and nature
