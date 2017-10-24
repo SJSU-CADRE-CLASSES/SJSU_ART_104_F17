@@ -3,6 +3,7 @@ but at the rate that technology advances nowadays, it is only a matter of time, 
 states: “It’s not about whether it is coming, but about when”. It is very interesting that our creativity 
 is boxed in when we try to visualize or display advancement for the future. We can have a conception of 
 what AGI will be once it is fully developed, but we fail to see the world when ASI arrives. 
+
 ASI will surpass the brightest minds and the most advanced hard drives and it’ll be up to it to choose 
 in which direction the world will be steered towards. It’ll have a reasoning different than the right or wrong we have,
 thus giving it the possibility of anything and everything. As much as we would imagine ASI like us, 
