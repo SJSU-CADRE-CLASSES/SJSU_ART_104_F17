@@ -3,8 +3,8 @@ like almost all art does, until of course I read about the meaning behind it. Bo
 thus making it a thing of the future or even maybe one day a fully developed and operational form of Artificial Intelligence. 
 
 We, in a way, have become bots in the way we communicate and interact with the world so much online. I thought it was really interesting
-to think of the concept in if Facebook or Google should pay us? They make huge amounts of revenue because of us, its users. 
-Without our visits, companies wouldn’t want to advertise or make business through their portals, and without them they can’t make money. 
+to think of the concept in if Facebook or Google should pay us? They make huge amounts of revenue because of us, its users. Without our
+visits, companies wouldn’t want to advertise or make business through their portals, and without them they can’t make money. 
 There is a kind of labor when we scroll down our friends posts of selfies and restaurants check-ins, when we search how to fix our laptops 
 or we search to watch the latest trailer to the newest Star Wars film. We are bots working for these companies, and I thought the author
 did a good job in illustrating the concept using the Fiverr website, in which one can offer a service and get paid for it, because it 
