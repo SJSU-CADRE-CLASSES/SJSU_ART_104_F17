@@ -14,4 +14,4 @@ Unless they include within the image a person, or thing that would allow you to 
 I also enjoyed the bit where he mentioned the issue of women being nude in these paintings and its implications. He talks about how women were seen as 
 objects compared to men. How men had to view them to be able to paint them. That creates this feeling of dominance, one over the other. It starts a
 conversation of power and equality as well. It also becomes an issue of pleasure. These men enjoyed painting nude women for a sense of self gratification
-it seems like. 
+it seems like. It is definitely something I haven't really thought through nor questioned. Now I am asking myself, why haven't I questioned that before? Its definitely an interesting topic. It seems so simple and obvious but it was done so often I thought of it as a norm that I never questioned. It's also interesting to think of how that itself works. The creation of normailities even though it was created based on the objectification of women. 
