@@ -2,7 +2,7 @@
 
 The video series "Ways of Seeing" explores a topic that I recently covered in one of my Art History class. The issue of familiarizing ourselves
 with reproductions of famous art. From only seeing them on the internet and in text books we don't grow to appreciate them fully or as they should
-be. We get to know images of the paintings but never the paiting itself. These art pieces, which should be seen in person, have their own presence. 
+be. We get to know images of the paintings but never the painting itself. These art pieces, which should be seen in person, have their own presence. 
 My teacher referred to it as "thing-ness". It had a sort of substance within itself that gets lost in its reproduction through images. We as viewers
 don't get to see the brush strokes, appreciate its size, or any of the little subtleties that get to be enjoy or even noticed untill seeing it in person.
 I particularly have noticed this when visiting SF Moma recently. There were many pieces their that I have studied and learned about but I never really
