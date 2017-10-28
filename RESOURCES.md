@@ -164,3 +164,17 @@ https://www.artbasel.com/miami-beach
 http://file.org.br/highlight/file-2018-call-for-entries/
 https://www.aec.at/prix/en/
 http://www.documenta14.de/en/
+
+10/25
+1. https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/08/20/16/Mona-Lisa-AFP-Getty.jpg
+2. https://www.google.com/search?q=jackson+pollock&tbm=isch&source=lnt&tbs=isz:l&sa=X&ved=0ahUKEwip-omzvozXAhVB8WMKHf4KC6cQpwUIHg&biw=1698&bih=1015&dpr=2#imgrc=lSq7hxnRoqeU2M:
+3. https://i2.wp.com/www.guggenheim.org/wp-content/uploads/1947/01/76.2553.150_ph_web.jpg
+4. http://www.tate.org.uk/visit/tate-modern
+5. https://www.google.com/maps/@48.8042933,2.1205631,2a,75y,61.08h,91.58t/data=!3m6!1e1!3m4!1sC1w8Tg2PZSjUjx9y9GP15g!2e0!7i13312!8i6656
+6. https://www.geek.com/apple/secret-service-confiscate-artists-pc-for-secret-apple-store-recordings-1401079/
+7. https://www.artsy.net/artwork/adelaide-labille-guiard-self-portrait-with-two-pupils
+8. https://medium.facilelogin.com/build-your-own-blockchain-b8eaeea2f891
+9. https://www.youtube.com/watch?v=vVFasyCvEOg
+10. https://www.google.com/search?q=louvre+18th+century&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiD_L-mxYzXAhVBCmMKHUZICcAQ_AUICigB&biw=1194&bih=728#imgrc=HxZoSzpucoQ-tM:
+11. https://www.google.com/search?q=elisabeth+vigee+lebrun&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjZ_LfFwYzXAhVI9WMKHXZRBzwQ_AUICigB&biw=1194&bih=728#imgrc=qc062oiaEqQIKM:
+12. http://employees.oneonta.edu/farberas/arth/Images/ARTH200/Artist/Labille-Guiard_Self-portrait_with_two_pupils.jpg
