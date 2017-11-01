@@ -37,3 +37,9 @@ https://www.cnbc.com/2017/08/16/extreme-right-groups-turn-to-shadow-economy.html
 https://en.wikipedia.org/wiki/Wikipedia:Community_health_initiative
 
 http://www.newsweek.com/hatreon-alt-right-richard-spencer-andrew-anglin-white-nationalism-white-644546
+
+http://www.slate.com/articles/technology/future_tense/2017/09/gab_is_suing_google_over_antitrust_and_it_has_a_point.html
+https://www.nytimes.com/2017/09/27/opinion/alt-right-neo-nazis.html
+https://motherboard.vice.com/en_us/article/8x8gaa/pepe-the-frogs-creator-lawsuits-dmca-matt-furie-alt-right
+https://en.wikipedia.org/wiki/Wikipedia:Community_health_initiative
+
