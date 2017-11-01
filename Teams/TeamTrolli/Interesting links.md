@@ -35,3 +35,5 @@ https://en.wikipedia.org/wiki/Manufacturing_Consent
 https://www.cnbc.com/2017/08/16/extreme-right-groups-turn-to-shadow-economy.html
 
 https://en.wikipedia.org/wiki/Wikipedia:Community_health_initiative
+
+http://www.newsweek.com/hatreon-alt-right-richard-spencer-andrew-anglin-white-nationalism-white-644546
