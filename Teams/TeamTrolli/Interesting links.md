@@ -1,6 +1,12 @@
 Noam Chomsky
 -manufacturing consent trailer
 
+https://lawstreetmedia.com/issues/law-and-politics/freedom-of-speech-social-media/
+
+https://www.americanbar.org/publications/youraba/2015/march-2015/aba-panelists-debate-free-speech-limits-on-social-media.html
+
+
+
 
 Why the alt-right can’t build an alt-internet
 https://www.theverge.com/2017/8/21/16180614/charlottesville-daily-stormer-alt-right-internet-domain
