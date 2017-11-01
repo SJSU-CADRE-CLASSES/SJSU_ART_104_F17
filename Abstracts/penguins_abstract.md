@@ -1,6 +1,5 @@
-Modern technology has become one of the fundamental things in our daily lives. But how much does it consume our lives? 
-No matter where we go, we will constantly see people on their phones, not for texting or calling, but instead socializing 
-on social media. Additionally, we also see advertisements for new phones, computers, and new technologies that manipulate us. 
-Those commercials are slowly influencing people's brain discretely to purchase their products using technology itself. 
-Nowadays, people rely a lot on technology; it changes the ways we communicate with each other and the way we behave towards 
-society. Do we use technology as a mean to escape reality? What could be the consequences that may happen in the nearly future?
+Modern technology has become one of the fundamental things in our daily lives. With easy access to the Internet and through social 
+media, users can make a living based on the content the user provides. Monetization through out the web has become a common method
+for a lot of people to make easy money. It has been used in online news, Youtube videos and even in Facebook pages, some have even 
+made monetization a actual career. While monetizing content does provide easy access to content and may even entertainment, it also
+easily controls lives of its audience. The content shown can slowly become addictive and might even change the perspective of many over time. Monetization over social media is considered a method to make easy money, but it also slowly manipulates the mind into thinking of the latter instead of seeing and experiencing content naturally. 
