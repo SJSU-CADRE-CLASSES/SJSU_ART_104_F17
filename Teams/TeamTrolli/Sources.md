@@ -1,6 +1,11 @@
 -Noam Chomsky
   -manufacturing consent trailer
   
+ Caroline Sinder's website(?); Provides links to various scholarly articles pertaining to our topic
+ https://medium.com/@carolinesinders/current-reading-list-of-papers-on-online-harassment-and-machine-learning-c70fe674f9d1
+ 
+ 
+  
  Might help with wat your writing Lam and Jennifer:
  https://futurism.com/researchers-use-ai-end-hate-speech/
  https://www.wired.com/story/should-facebook-and-twitter-be-regulated-under-the-first-amendment/
