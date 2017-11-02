@@ -1,7 +1,7 @@
 -Noam Chomsky
   -manufacturing consent trailer
   
- Might help with wat you're writing Lam:
+ Might help with wat your writing Lam and Jennifer:
  https://futurism.com/researchers-use-ai-end-hate-speech/
  https://www.wired.com/story/should-facebook-and-twitter-be-regulated-under-the-first-amendment/
  https://medium.com/berkman-klein-center/how-facebook-tries-to-regulate-postings-made-by-two-billion-people-bca9408b6b4b
