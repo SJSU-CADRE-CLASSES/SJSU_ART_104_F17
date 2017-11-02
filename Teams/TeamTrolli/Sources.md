@@ -6,7 +6,10 @@
  https://www.wired.com/story/should-facebook-and-twitter-be-regulated-under-the-first-amendment/
  https://medium.com/berkman-klein-center/how-facebook-tries-to-regulate-postings-made-by-two-billion-people-bca9408b6b4b
  
- 
+ For Stephanie, to help with some background on the alt-right, their goals:
+ https://www.nytimes.com/2017/08/14/us/white-supremacists-right-wing-extremists-richard-spencer.html
+ https://www.nfunity.org/membership/
+ https://www.nfunity.org/unity/ <-----their statement
  
 
 -https://lawstreetmedia.com/issues/law-and-politics/freedom-of-speech-social-media/
