@@ -58,3 +58,4 @@ http://scholar.colorado.edu/jour_gradetds/15/
 
 -https://en.wikipedia.org/wiki/Wikipedia:Community_health_initiative
 
+https://www.elitedaily.com/news/politics/yes-white-supremacists-right-demonstrate-heres-protected/2044312
