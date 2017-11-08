@@ -2,7 +2,7 @@
 
 ### Improving/Maintaining AI with blockchain and quantum cryptography
 
-Advances in Ai has created many opportunities for research but also criticism on the potential danger of achieving singularity. Artificial intelligence exist in almost every aspect of our daily lives now.  As technology advances and data science branch out, we need a secure way of monitoring and handling AI’s functionalities. The continuous increase of data transmitted electronically has led also to an increased need for and reliance on cryptography. Therefore, integration of AI with blockchain and quantum cryptography is promising. Blockchains introduced three new characteristics to ai: shared control, audit trails, and exchanges. However, its current platforms rely on digital signatures, which are vulnerable to attacks by means of quantum computers. Fortunately quantum cryptography is a proven and secure method of avoiding these attacks.
+Advances in Ai has created many opportunities for research but also criticism on the potential danger of achieving singularity. Artificial intelligence exist in almost every aspect of our daily lives now.  As technology advances and big data branch out, we need a secure way of monitoring and handling AI’s functionalities. The continuous increase of data transmitted electronically has led also to an increased need for and reliance on cryptography. Therefore, integration of AI with blockchain and quantum cryptography is promising. Blockchains introduced three new characteristics to ai: shared control, audit trails, and exchanges. However, its current platforms rely on digital signatures, which are vulnerable to attacks by means of quantum computers. Fortunately quantum cryptography is a proven and secure method of avoiding these attacks.
 
 
 
