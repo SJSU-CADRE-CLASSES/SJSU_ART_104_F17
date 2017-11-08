@@ -2,7 +2,8 @@
 
 ### Improving AI through Blockchain and quantum mechanics
 
-This experimental journal article is about the potential use of blockchain technology, combined with quantum mechanics, to better improve and control the advances in artificial intelligence. The aspects explore a brief history of important breakthroughs in artificial intelligence, address different issues and perspectives behind the idea of the singularity, and analyze the potential improvements of AI through blockchain technology and quantum mechanics/computers. This article will provide an overview of AI and how we could manage it through practical deployment of distributed databases like blockchain. We hope to provide a possible realistic approach towards security on singularity. 
+Advances in Ai has created many opportunities for research but also criticism on the potential danger of achieving singularity. Artificial intelligence exit in almost every aspect of our daily lives now.  As technology advances and data science branch out, we need a secure way of monitoring and handling AI’s functionalities. The continuous increase of data transmitted electronically has led also to an increased need for and reliance on cryptography. Therefore, the integration of AI with blockchain and quantum cryptography is promising. Blockchains introduced three new characteristics to ai: shared control, audit trails, and exchanges. However, its current platforms rely on digital signatures, which are vulnerable to attacks by means of quantum computers. Fortunately quantum cryptography is a proven and secure method of avoiding these attacks.
+
 
 
 ### Simple Outline
