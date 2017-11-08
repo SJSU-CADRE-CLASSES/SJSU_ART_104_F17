@@ -1,1 +1,4 @@
-
+The way we see things has changed. The camera changed how we look at things and allows us to look at objects or scences through a different perspective. Before an image showed a place of meaning, now, because of the distributionn of the images, the images show no place of meaning. You can see the icon image in your home, they no longer have to be approached but they come to you. 
+Some images have become mysterious again, not because of the representation or medium used, not even because of the beauty of the work, but because of its market value, and that value comes from the it being genuine or not. 
+Paintings lost something when the camera made them reproductible. Their originality. 
+The music played in the background of a painting is shifts the mood or meaning of it based on what kind of music it is. This influences how we perceive paintings or drawings without conciousness of it sometimes. 
