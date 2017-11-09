@@ -178,3 +178,11 @@ http://www.documenta14.de/en/
 10. https://www.google.com/search?q=louvre+18th+century&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiD_L-mxYzXAhVBCmMKHUZICcAQ_AUICigB&biw=1194&bih=728#imgrc=HxZoSzpucoQ-tM:
 11. https://www.google.com/search?q=elisabeth+vigee+lebrun&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjZ_LfFwYzXAhVI9WMKHXZRBzwQ_AUICigB&biw=1194&bih=728#imgrc=qc062oiaEqQIKM:
 12. http://employees.oneonta.edu/farberas/arth/Images/ARTH200/Artist/Labille-Guiard_Self-portrait_with_two_pupils.jpg
+
+11/1
+
+1. https://www.youtube.com/watch?time_continue=3&v=rvrZJ5C_Nwg
+2. https://www.youtube.com/watch?v=rqC2xpCaG80
+3. https://www.youtube.com/watch?v=9Yq67CjDqvw
+4. https://thenextweb.com/artificial-intelligence/2017/11/01/nvidias-new-ai-creates-people-out-of-thin-air/
+5. https://www.snotr.com/video/1032/Penguins_can_fly_after_all
