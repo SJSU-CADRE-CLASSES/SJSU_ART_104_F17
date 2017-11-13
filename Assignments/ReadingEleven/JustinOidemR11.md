@@ -1,0 +1,9 @@
+Art 104 // Reading 11 
+
+In Defense of the Poor Image 
+
+The beginning of the articles discusses the characteristics of a poor image. It describes it as a copy in motion. It contains bad quality and its resolution is substandard. It could be a rag or a rip. The poor image has been uploaded, downloaded, shared, reformatted and reedited. It transforms its quality into accessibility. It gets shared around and distributed to the point where they lose their qualities. 
+
+I agree that this description could define a poor image, but also a poor image could deal with the context of the image itself. What is its subject matter? Is it properly composed? It could be high quality in itself but the image that it depicts might not be. Thought in the context of the article subject matter really isn’t that important. The subject of this article has to do more with distribution, perception, and well the reality of things. That people feel the need for 4k images. That almost anything less could be considered well, not worthy. People in general keep wanting more. We have fetishized resolution and anything subpar is considered poor and inadequate. Its interesting how things are changing. Only a few decades ago we were still watching VHS tapes which were never that good in quality. 
+
+There is a part where he talks about insisting on rich images also has consequences; I think within almost any context it is better to have something to show than nothing at all. The part about a speaker who refused to show clips by Humphrey Jennings because no proper film projection was available was, in my opinion, stupid. Why reference something then leave it to the viewers to imagine what those images  might have looked like? In the context of the article if you aren’t showing the original pristine image anyways, just another reproduction, you are still showing a poor image. 
