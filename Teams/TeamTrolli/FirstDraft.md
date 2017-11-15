@@ -162,5 +162,13 @@ can be used to detect keywords like Alt-right, Neo-Nazi, white power, and other 
 
 (Will expand more in Final draft)
 
+1. "Chaplinsky v. New Hampshire, 315 U.S. 568 (1942)." Justia Law. Accessed November 15, 2017. https://supreme.justia.com/cases/federal/us/315/568/case.html.
+
+2. Lapowsky, Issie. "Tech Companies Have the Tools to Confront White Supremacy." Wired. August 16, 2017. Accessed November 15, 2017. https://www.wired.com/story/charlottesville-social-media-hate-speech-online/.
+
+3. Constitute. Accessed November 15, 2017. https://www.constituteproject.org/constitution/United_States_of_America_1992.
+
+4. Heilweil, Rebecca. "5 Ways Facebook Uses Artificial Intelligence To Counter Terrorism." Forbes. June 15, 2017. Accessed November 15, 2017. https://www.forbes.com/sites/rebeccaheilweil1/2017/06/15/5-ways-facebook-uses-artifical-intelligence-to-counter-terrorism/#8825a1d49e69.
+
 
 
