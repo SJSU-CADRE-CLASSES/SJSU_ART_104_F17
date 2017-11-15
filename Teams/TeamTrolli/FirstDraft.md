@@ -43,7 +43,7 @@ their views attacked and unwelcomed, wish to join together and form their own in
 (Sinders, Caroline. "Microsoft's Tay is an Example of Bad Design – caroline sinders – Medium." Medium. March 24, 2016. Accessed November 
   15, 2017. https://medium.com/@ carolinesinders/microsoft-s-tay-is-an-example-of-bad-design-d4e65bb2569f.)
 
-Subject 2: Norka
+Subject 2: Norka (Technical)
 
   After the August 12 attacks in Charlottesville, many online platforms decided to take a stand and pull the plug on white supremacist 
 websites, such as the Daily Stormer. The website had posted an article making derogatory comments about the woman who was killed while 
@@ -68,7 +68,11 @@ own alternative to Cloudflare as well as other parallel platforms. However with 
 security, etc. it might not work out in their favor. It seems that for the time being white supremacists will have to operate on the 
 dark web and the few other websites that allow hate speech, such as; Gab and Hatreon. 
 
-(https://www.theverge.com/2017/8/21/16180614/charlottesville-daily-stormer-alt-right-internet-domain)
+1.  Adi Robertson, "Why the alt-right can't build an alt-internet," The Verge (August 21, 2017), https://www.theverge.com/2017/8/21/16180614/charlottesville-daily-stormer-alt-right-internet-domain (Accessed November 7, 2017).
+
+2.  Avi Selk, "A running list of companies that no longer want the Daily Stormer's business," The Washington Post (August 16, 2017), https://www.washingtonpost.com/news/the-switch/wp/2017/08/16/how-the-alt-right-got-kicked-offline-after-charlottesville-from-uber-to-google/ (Accessed November 7, 2017).
+
+3.  Contessa Brewer, "Extreme right groups turn to 'shadow economy,'" CNBC (August 16,2017), https://www.cnbc.com/2017/08/16/extreme-right-groups-turn-to-shadow-economy.html (Accessed November 7, 2017)
 
 Subject 3: Jennifer (Social Media Influence)
 
