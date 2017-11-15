@@ -117,11 +117,14 @@ Many conservatives end up abandoning these popular online platforms in favor of 
 speak their opinions and listen to what they want to hear. As a result, however, the gap between liberal communities and conservative 
 communities continues to widen as interaction between the two groups slowly diminishes over time.
 
-Cadwalladr, C. "Robert Mercer: The Big Data Billionaire Waging War on Mainstream Media." Accessed November 14, 2017. https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage
 
-Nguyen, Tien T., Pik-Mai Hui, F. Maxwell Harper, Loren Terveen, and Joseph A. Konstan. "Exploring the filter bubble." Proceedings of the 23rd international conference on World wide web - WWW 14, 2014. doi:10.1145/2566486.2568012.
 
-Okeeffe, G. S., and K. Clarke-Pearson. "The Impact of Social Media on Children, Adolescents, and Families." Pediatrics 127, no. 4 (2011): 800-04. doi:10.1542/peds.2011-0054.
+
+1. Cadwalladr, C. "Robert Mercer: The Big Data Billionaire Waging War on Mainstream Media." Accessed November 14, 2017. https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage
+
+2. Nguyen, Tien T., Pik-Mai Hui, F. Maxwell Harper, Loren Terveen, and Joseph A. Konstan. "Exploring the filter bubble." Proceedings of the 23rd international conference on World wide web - WWW 14, 2014. doi:10.1145/2566486.2568012.
+
+3. Okeeffe, G. S., and K. Clarke-Pearson. "The Impact of Social Media on Children, Adolescents, and Families." Pediatrics 127, no. 4 (2011): 800-04. doi:10.1542/peds.2011-0054.
 
 
 
