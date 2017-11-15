@@ -22,7 +22,7 @@ individuals such as President Trump and much of society look to online platforms
 the real world, or wish to further validate their ideals without feeling any consequences in front of faceless strangers. As a result, 
 through social networking, history based searches, and the power of anonymity, humans continue to cultivate largely differing views that 
 is consider to be the essence hate speech. Social media websites such as Twitter, Reddit, and Facebook have unfortunately become the 
-main hubs for such individuals. The topic on hate speech has garnered even more media attention recently in 2016 and 2017 due to the 
+main hubs for such individuals. However, the topic on hate speech has garnered more media attention recently in 2016 and 2017 due to the 
 social and political views of the Alt-Right. 
 
   Coined by Richard Bertrand Spencer, the term Alt-Right, or the alternative right, is a loosely defined group of people that are made up of far right-wing extremists and white nationalists. These individuals reject the mainstream concepts of political correctness or social justice as these hinder their goals for the preservation of western civilization and white ethno-nationalism. While these group have existed for years spreading their message in “safe spaces” with websites such as Twitter, Breitbart News, and Reddit; they were not 
