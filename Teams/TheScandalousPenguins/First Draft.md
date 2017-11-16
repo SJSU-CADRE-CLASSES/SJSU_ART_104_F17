@@ -1,5 +1,4 @@
-
-	Online news has become a new way to learn about the latest events going on in the world. Access to news articles has become easier than ever, thanks to being able to find information online. In addition, lots of news articles have been moved to social media sites, such as Facebook and Twitter. But what exactly qualifies as quality news and news that spout nonsense? With the help of a system called monetization, posting news has been easier. As a result, a lot of fake news articles have become viral for many viewers all over the Internet. Fake news articles are just as they sound, they are articles that sound like news, but with no given proof. These news articles make money depending on the amount of views. Since viewers can’t tell the difference between fake news and real news, the fake news begin to manipulate the audience into believing it. Monetizing news on social media has become a common practice to get attention and money, while it manipulates the viewers into believing it.
+Online news has become a new way to learn about the latest events going on in the world. Access to news articles has become easier than ever, thanks to being able to find information online. In addition, lots of news articles have been moved to social media sites, such as Facebook and Twitter. But what exactly qualifies as quality news and news that spout nonsense? With the help of a system called monetization, posting news has been easier. As a result, a lot of fake news articles have become viral for many viewers all over the Internet. Fake news articles are just as they sound, they are articles that sound like news, but with no given proof. These news articles make money depending on the amount of views. Since viewers can’t tell the difference between fake news and real news, the fake news begin to manipulate the audience into believing it. Monetizing news on social media has become a common practice to get attention and money, while it manipulates the viewers into believing it.
 	When searching the web, there’s always something that’s going to catch the attention of the viewers. One of those things that catch the viewers’ attention is fake news. According to the article, News in an Online World: The Need for an “Automatic Crap Detector”, the authors Yimin Chen, Niall J. Conroy, and Victoria L. Rubin states that “the current state of online information is one of overload with many competing sources of varying quality…” Online news is practically everywhere. It is shown on websites and has been pushed on to the social media. With the use of online resources like’s social media, fake news is one of the easiest things to be found one social media. In fact, a lot of this type of news can be shared and sponsored through with the use of monetizing. Monetizing news articles can make access to fake news articles easy. According to the authors, Chen, Conroy and Rubin mentioned that, “the online media economy is largely based around monetization of “views” through advertising revenue.” Using monetization makes the sponsors for these news articles very appealing to look at. Images, large headlines and even have all caps, just to grab the attention of the viewers. However, fake news can also behave like regular news articles. The differences of the articles are so subtle that someone might not be able to tell the difference. Any news about the government or the president is some of the common topics for fake news. Since political news is the easiest to go viral online, a lot of fake news sites cater to this type of news to make revenue. An article called, The Dark Side of Display: How “Fake News” Sites Monetize their Content, the author Bradley Nickel mentions how these sites monetize their content so easily. He mentions that” the best strategy that paid off though, was to get real people – like Trump fanatics or even the real media –to latch on to the stories and spread them to their own networks.” As the news gets spread the more views the fake news gets. Like advertising, more views results in more money. And unfortunately, most viewers most likely looked at the header without reading the content of the article, falling into the trap. 
 	Most of these fake news articles are mostly spread on social media; some might even call it the main source for the spread of fake news. In Jonathan Albright’s article Welcome to the Era of Fake News mentions, “…thirdparty applications allow the rapid amplification of emotionally-charged messages across platforms such as Twitter. This strategic distortion of attention can hasten the spread of misinformation and the establishment of ‘alternative facts’.” The use of social media has created an environment of false information. Since, these articles quickly spread on these platforms and usually acts as clickbait, one has to consider whether or not these articles are truly harmful to viewer. 
 
@@ -16,25 +15,4 @@ Warsaw-based company Userfeeds is developing a new solution which utilizes "the 
 Its underlying philosophy is that the current system of news discovery and content ranking, which involves links, likes and upvotes, is in fact broken and easily manipulated by third parties essentially enabling "fake news" to rank high on platforms such as Facebook, Twitter and Google's news search.
 The company's first product, Userfeeds Engine, is built on top of the Ethereum blockchain and will enable developers, publishers and users to run custom content rankings to produce search results, recommendation processes, news feeds and sponsored links.  The end goal: create completely new business model opportunities for content publishers and developers well beyond traditional advertising and subscriptions.
 
-How Fake News Monetize Content
-
-How to spot fake news
-
-How to use blockchain to prevent fake news and reveal truth
-
-What is truth in blockchain
-
-Relatively true result 
-
-
-http://www.telegraph.co.uk/technology/0/fake-news-exactly-has-really-had-influence/
-
-
-
-Fake news uses eye-catching headlines or entirely fabricated news stories to increase readership, online sharing and Internet click revenue. 
-Without it is similar to sensational online "clickbait" headlines and relies on advertising revenue generated from this activity, regardless of theç of the published stories. Fake news also undermines serious media coverage and makes it more difficult for journalists to cover significant news stories.
-
-Similar to incentivized reviews on Amazon website, 
-Fake website
-The business behind fake news
 
