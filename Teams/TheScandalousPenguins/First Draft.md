@@ -11,8 +11,3 @@ With an increasing appetite for verifiable truth on the Internet, blockchain tec
 
 
 
-Warsaw-based company Userfeeds is developing a new solution which utilizes "the principles and methods of Bitcoin and Ethereum to create  transparent and publicly auditable content networks and ranking algorithms that use digital tokens as ranking signals," according to a statement on the company's blog.
-Its underlying philosophy is that the current system of news discovery and content ranking, which involves links, likes and upvotes, is in fact broken and easily manipulated by third parties essentially enabling "fake news" to rank high on platforms such as Facebook, Twitter and Google's news search.
-The company's first product, Userfeeds Engine, is built on top of the Ethereum blockchain and will enable developers, publishers and users to run custom content rankings to produce search results, recommendation processes, news feeds and sponsored links.  The end goal: create completely new business model opportunities for content publishers and developers well beyond traditional advertising and subscriptions.
-
-
