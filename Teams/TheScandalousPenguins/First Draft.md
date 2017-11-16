@@ -7,7 +7,5 @@ James Titcomb and James Carson, fake news comes in multiple variants, such as Co
 
 Fake news is like the twin of truth which is difficult to identify. People could spot fake news through checking the URL, the source, photos, dates, evidence, or look at other reports to see if they are reporting the same story. However, it is very difficult to prevent and reveal truth because the fake news could be produced for many reasons in many ways, either intentionally or unintentionally, through planning to achieve the purpose or by paying to spread the news. 
 
-With an increasing appetite for verifiable truth on the Internet, blockchain technology can help solve the fake news problem and provide the new ecosystem of information. Ethereum blockchain will enable developers, publishers and users to run custom content rankings to produce search results, recommendation processes, news feeds and sponsored links. Incentivizing Curators of Content create completely new business model opportunities for content publishers and developers well beyond traditional advertising and subscriptions.
-
 
 
