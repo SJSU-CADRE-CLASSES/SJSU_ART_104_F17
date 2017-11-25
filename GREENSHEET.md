@@ -84,7 +84,7 @@ Schedule
 | *Week 9* 10/18      | **Reading 8 Due** ** Presentation + Discussion ** **Reading 9: https://www.youtube.com/watch?v=0pDE4VX_9Kk parts 1-4** ** Research and in class work on papers |
 | *Week 10* 10/25     | **Reading 9 Due** ** Presentation + Discussion ** **Reading 10: Ways of Seeing 3 and 4 https://www.youtube.com/watch?v=Z7wi8jd7aC4** ** Research and in class work on papers |
 | *Week 11* 11/01     | **Reading 10 Due** ** Presentation + Discussion ** **Reading 11: http://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/** ** Research and in class work on papers |
-| *Week 12* 11/08     | Final Presentation Proposals + Discussion/Critique **Reading 12: Assigned in Class** |
+| *Week 12* 11/08     | Final Presentation Proposals + Discussion/Critique **Reading 12 bonus: https://bennopremselalezing2015.hetnieuweinstituut.nl/** |
 | *Week 13* 11/15     | No Class Due to ATC (Advancement to Candidacy) ** Final Paper Requirements Posted to the git. Students will present their ideas on 11/08 to the class. |
 | *Week 14* 11/22     | Thanksgiving! No Class |
 | *Week 15* 11/29     | **Reading 11 Due** |
