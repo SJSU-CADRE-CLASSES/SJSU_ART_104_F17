@@ -134,41 +134,33 @@ communities continues to widen as interaction between the two groups slowly dimi
 
 Subject 4. Lam
 
-  When it comes to freedom of speech in America, there is some controversy and a grey area to what is considered free speech. In terms 
-of the Alt-right and the platform that they represent, here lies the controversy. The majority of people want to know why these kinds of 
-people and their ideas have a place in our modern society. The first amendment states “Congress shall make no law respecting an 
-establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right 
-of the people peaceably to assemble, and to petition the Government for a redress of grievances”. The Alt-right have stated that their 
-first amendment rights were violated when several social media outlets, forums, and apps frequently used by the group were removed from 
-their server domains. This all happened after the Charlottesville incident when the group took matters to far and people ended up 
-injured and killed. Freedom of speech only protects us from so much, once it becomes violent or hateful, you lose your right to free 
-speech. In this case the situation became very violent and the death of a protester set off the chain of reaction, from server 
-providers. 
+  The Rise and Fall of the Alt-Right
+The Alternative Right, more commonly called the Alt-Right, is a group with members who subscribe to far-right ideologies concerning white identity. The group is among many that preach their extremist ideologies through various means, and in the more recent times they have concentrated their efforts on disseminating their ideas by employing internet based communication technologies. 
 
-  The tech companies like Godaddy and Google do not have to abide by the same freedom of speech laws as the united states government. 
-They make their own terms of agreement and can remove content for whatever reason they see fit. If they what to outright ban hate speech 
-and any content from the Alt-right they can do so. However, this will become increasingly difficult as the Alt-right are using different 
-forms of technology and platforms to try and get their content back up. In the future, if these tech companies want to continue the 
-monitoring of hate speech on their servers, they will have to use alternative resources. 
+The incident at Charlottesville, where demonstrators and counter-demonstrators clashed with each other, has become a symbol of the challenges associated with freedom of speech in the country. This brings questions of regulation of free speech into the forefront, and raises questions about how untangling the First Amendment through technological means may be both necessary and challenging. At its root, the freedom of expression needs protection, even if it is considered hateful by some.  This is the only way to strengthen democracy and its legitimacy. 
 
-  The banning of the daily stormer was likely done manually by one person. However, one person or a team of people cannot be capable of 
-monitoring thousands of new sites and data that passes through their servers daily. If they want to stand by their decision to not 
-support these types of groups, Bots and automated programs will have to be put into place. Facebook has already implemented artificial 
-intelligence to battle ISIS and terror groups on their platform. The AI is able to recognize text that advocates terrorism and terrorist 
-groups, it can also recognize images that are frequently used by the terrorist, for example images of the ISIS flag or the ISIS leaders. 
-The AI is also set to monitor accounts that are friends with banned terrorist accounts or accounts that are tied into the terrorist 
-networks. These are some of the ways that social media sites can battle against the Alt-right. Another useful tool is algorithms, they 
-can be used to detect keywords like Alt-right, Neo-Nazi, white power, and other trigger words used by the Alt-right.
+Lapowsky believes that tech companies do not have to be placed under the net of First Amendment, since they are not the government and therefore free to police speech in the manner they deem fittest . Social media platforms such as Twitter and Facebook have already taken extremely aggressive stances to curb the activities of aggressive extremist groups such as ISIS, and the tools used by these companies can be extended to others as well. Instagram, for instance, have developed a filter that automatically deletes specific words from users’ feeds; and most interestingly, users can turn this feature on or off . So, users who are more likely to feel offended by certain types of speeches, can simply turn the option on, and filter all the materials that they find offensive. 
 
-(Will expand more in Final draft)
+A combination of intuitive programming languages and algorithms can help identify trolling or offending patterns on the internet, and this can be used to eliminate offensive or inflammatory content from various websites that allow users to generate content. The Anaconda (Python 3.6) version is a dynamic programming language that has been made popular because of its high-level functionality and its ability to process natural language data using a Natural Language Toolkit. Using Anaconda, a Troll Identification Algorithm can be created, that is specifically aimed at targeting users and keywords that are misleading, offensive or associated with unnecessary or nonsensical information . The design of technologies and algorithms is aimed to improve overall identification of inflammatory content, while also allowing the communication technologies to expand without hurting the freedom of expression by over-censoring, and still preventing hate speech to become overbearing. 
 
-1. "Chaplinsky v. New Hampshire, 315 U.S. 568 (1942)." Justia Law. Accessed November 15, 2017. https://supreme.justia.com/cases/federal/us/315/568/case.html.
+There have been constant efforts to design abusive or inflammatory speech filters that seamlessly identify sensitive content and filter it out using  a token list. However, such methods are outdated, and relies on a human generated and populated blacklist for the filtration of content. Instead of this method, which is often deemed inefficient, advanced technologies such as Artificial Intelligence (AI) can be used to detect abusive content in social media. A number of methods that leverage the AI technologies have been identified, and these can be used to automate the data and content filtering process to make it more accurate and efficient. These include dataset balancing, which boosts detection of abusive content on social media; feature reduction, which aims at trimming the features of programs with large feature sets, to improve efficiency while still maintaining detection accuracy; use of generic structural features that can be used universally across datasets . 
 
-2. Lapowsky, Issie. "Tech Companies Have the Tools to Confront White Supremacy." Wired. August 16, 2017. Accessed November 15, 2017. https://www.wired.com/story/charlottesville-social-media-hate-speech-online/.
+References
 
-3. Constitute. Accessed November 15, 2017. https://www.constituteproject.org/constitution/United_States_of_America_1992.
+Chen, Hao, Susan Mckeever, and Sarah Jane Delany. "Harnessing the Power of Text Mining for the Detection of Abusive Content in Social Media." In Advances in Computational Intelligence Systems, pp. 187-205. Springer International Publishing, 2017.
 
-4. Heilweil, Rebecca. "5 Ways Facebook Uses Artificial Intelligence To Counter Terrorism." Forbes. June 15, 2017. Accessed November 15, 2017. https://www.forbes.com/sites/rebeccaheilweil1/2017/06/15/5-ways-facebook-uses-artifical-intelligence-to-counter-terrorism/#8825a1d49e69.
+Lapowsky, Issie. Tech Companies Have the Tools to Confront White Supremacy. Wired, 2017. Accessed from https://www.wired.com/story/charlottesville-social-media-hate-speech-online/  
+
+Snyder, Peter, Periwinkle Doerfler, Chris Kanich, and Damon McCoy. "Fifteen Minutes of Unwanted Fame: Detecting and Characterizing Doxing." strategies 10 (2017): 13.
+
+Tayade, Pooja M., Shafi S. Shaikh, and S. N. Deshmukh. "To Discover Trolling Patterns in Social Media: Troll Filter." (2017).
+
+Zhong, Haoti, Hao Li, Anna Cinzia Squicciarini, Sarah Michele Rajtmajer, Christopher Griffin, David J. Miller, and Cornelia Caragea. "Content-Driven Detection of Cyberbullying on the Instagram Social Network." In IJCAI, pp. 3952-3958. 2016.
+
+
+
+
+
 
 
 
