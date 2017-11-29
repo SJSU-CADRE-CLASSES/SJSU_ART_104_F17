@@ -23,7 +23,7 @@ The authenticity of online news is now very difficult to tell. People could spot
 
 Distributed ledger technology like blockchain could be the closest technology to being able to solve the fake news problem by changing the way organizations collect and store data. A distributed ledger system could also be used to help us check our confirmation biases in response to fake news. A decentralized version of Google or Facebook would be like a Yelp for news media, with experts who score platforms on their integrity, as well as crowd-contributed ratings. 
 
-Decentralized publishing can help solve the fake news problem, build trust and security, and provide the new online ecosystem of information.
+Decentralized content and publishing can help solve the fake news problem, build trust and security, and provide the new online ecosystem of information.
 
 It will help improve the quality and diversity of online content by rewarding writers for producing great content and encourage more people to join the platform. Different from traditional advertising and subscriptions, ethereum blockchain can help create new business model opportunities for content publishers, developers, and users. Like the new company Userfeeds aims to stop fake news by developing token-based communities through incentivizing curators of content; by building an incentive-based system, it will allow digital content to be backed by cryptocurrency tokens. The tokens can be tradeable for other currencies so content creators and curators can generate revenue for sharing authenticated content. This will program incentives and enable the guardians for the authenticity of news. 
 
