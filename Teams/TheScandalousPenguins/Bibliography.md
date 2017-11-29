@@ -12,5 +12,17 @@ Titcomb, James and Carson James. “Fake news: What exactly is it – and can it
 
 Richmond, Jill. “How Blockchain can Fight Fake News.” Nasdaq.com. June 20, 2017.  http://www.nasdaq.com/article/how-blockchain-can-fight-fake-news-cm805838
 
+Bailey Reutzel. “I Want the Truth: Could Blockchain Stop Online News Distortion?”  https://www.coindesk.com/want-truth-blockchain-stop-online-news-distortion/
+
+Brian Behlendorf. "Fact-Based Browsing: What If the Internet Could Not Tell a Lie?"  http://bigthink.com/videos/brian-behlendorf-is-blockchain-the-only-real-solution-to-fake-news
+
+
+Colm Hebblethwaite. "Can blockchain solve the fake news problem?"  https://www.blockchaintechnology-news.com/2017/05/16/can-blockchain-solve-fake-news-problem/ 
+
+Snip - Fighting Fake News on the Blockchain - SF Blockchain Meetup  https://youtu.be/3vLmLfvqEZA
+
+Jill Richmond. "How Blockchain Can Fight Fake News" http://www.nasdaq.com/article/how-blockchain-can-fight-fake-news-cm805838
+
+Mike Butcher. "Userfeeds aims to stop fake news by linking the blockchain to social content."  https://techcrunch.com/2017/05/03/userfeeds-aims-to-stop-fake-news-by-linking-the-blockchain-to-social-content/
 
 
