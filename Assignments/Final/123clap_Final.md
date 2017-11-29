@@ -1,4 +1,4 @@
-Group Members:
+# Group Members:
 - Dominique Auyeung
 - Janelle Chan
 - Mitchell Christ
