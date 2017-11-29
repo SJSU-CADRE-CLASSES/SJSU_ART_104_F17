@@ -1,0 +1,10 @@
+In the article, In Defense of the Poor Image, by Hito Steyeri. In this article Steryeri brings up an arguement to defend the poor image. To what Steyeri means by the poor image is the reproduced of the original in different file types and different mediums. “The poor image is an illicit fifth-generation bastard of an original image. Its genealogy is dubious.” In defense he states of the poor images: low resolutions a category of what makes a poor image, resurrection of poor images, privatization and piracy.
+
+Steryeri follows up with a hierarchy of images, within a class of images; based on the quality of images. On how contemporary culture prefers high resolution images than low resolution.  As the shift to higher resolutions images, Steryeri brings up the resurrection of the poor images. In privatization and piracy, after the purge of poor images 30 years ago, the poor images gained privatization and piracy. The poor image Steyeri states “Poor images are poor because they are not assigned any value within the class society of images—their status as illicit or degraded grants them exemption from its criteria. Their lack of resolution attests to their appropriation and displacement.” Appropriation and displacement the poor images have historical and cultural value 
+
+My response to the poor image is that I agree with Steyeri defense, because it carries fragments of important history that is valued highly. This article reminds me of a poorly drawn image of that I drew from the projection of great artistic influences, but what I had in my consciousness imagined a higher resolution with vivid and complex details. That higher resolution bloomed from social values and cultural influences. After I either erase the drawings or just keep them. Time passes, the drawing gets better, forgotten some details. I come back to the poor old drawing having some kind of visual bond. Resurrection take its place. 
+
+Refrences
+
+Steyerl, Hito . "In Defense of the Poor Image." In Defense of the Poor Image - Journal #10 November 2009 - e-flux. Accessed November 29, 2017. http://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/.
+
