@@ -1,1 +1,1 @@
-![poater-dimensions](https://imgur.com/a/0mOvQ)
+![alt-text](https://imgur.com/a/0mOvQ)
