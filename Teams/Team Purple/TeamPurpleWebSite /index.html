@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+
+</head>
+<body>
+	<div id="container">
+		<div id="canvas_container">
+			<canvas id="canvas" >	
+			</canvas>
+        <div id="names">
+        <div style="color: rgb(73, 76, 209);">George distance<span id="georgeDistance"></span></div>
+        <div style="color: rgb(52, 59, 87);">Newman distance <span id="newmanDistance"></span></div>
+        <div style="color: rgb(101, 173, 232);">Jerry distance<span id="jerryDistance"></span></div>
+        <div>
+        	<button onclick="refresh_canvas()">Refresh</button>
+        </div>
+        </div>
+		</div>
+
+<div id="right">
+<p class="code">
+	<span class="blue_color">var</span> Route <span class="red_color">=</span> (<span class="blue_color">function</span>() {
+  <span class="blue_color">function</span><span class="green_color"> distance</span>(<span class="orange_color">p1</span>, <span class="orange_color">p2</span>){
+    <span class="red_color">return</span>  <span class="blue_color">Math.sqrt</span>((p1.x<span class="red_color">-</span>p2.x)<span class="red_color">*</span>(p1.x<span class="red_color">-</span>p2.x) <span class="red_color">+</span> (p1.y<span class="red_color">-</span>p2.y)<span class="red_color">*</span>(p1.y<span class="red_color">-</span>p2.y));
+  }
+
+   <span class="blue_color">function</span> <span class="green_color">clean</span>(<span class="orange_color">points</span>) {
+    <span class="red_color">return</span> points. <span class="blue_color">filter</span>( <span class="blue_color">function</span> (<span class="orange_color">n</span>) {
+      <span class="red_color">return</span> n <span class="red_color">!==</span> <span class="purple_color">null</span> <span class="red_color">&&</span> n <span class="red_color">!==</span> <span class="purple_color">undefined</span>;
+    });
+  }
+</p>
+<p class="essay"> With the emergence of smarter and smarter artificial intelligence, the concept of the singularity and the fears concerning very intelligent machines becomes prevalent in the minds of many. The idea that one day we might be melded with or even replaced by machines is a scary idea, and one that could come true in the near future. One of the first fears of computers becoming sentient is the idea that if and when computers gain intelligence greater than or equal to our own, the machines will revolt against us. This is an idea that is very popular in science fiction and Hollywood with movies like The Terminator and the book and movie I, Robot being some of the most recent adaptations of the idea in the last few decades. As humans we fear the unknown and part of this unknown is the possibility that our creation becomes uncaring of our existence and merely sees us as a lower species that needs to be eradicated. In the present day, however, AI is still far away from achieving singularity as it still requires a substantial amount of human intervention and monitoring as it adapts to our needs. </p>
+
+<p class="code">
+  <span class="blue_color"> function</span><span class="green_color"> checkLineIntersection </span>(<span class="orange_color">line1Start</span>, <span class="orange_color">line1End</span>, <span class="orange_color">line2Start</span>, <span class="orange_color">line2End</span>) {
+     <span class="blue_color">var</span> a,
+        b,
+        numerator1,
+        numerator2,
+        denominator <span class="red_color">=</span> (
+                (line2End.y <span class="red_color">-</span> line2Start.y)
+                <span class="red_color">*</span> (line1End.x <span class="red_color">-</span> line1Start.x)
+            )
+            <span class="red_color">-</span> (
+                (line2End.x <span class="red_color">-</span> line2Start.x)
+                <span class="red_color">*</span> (line1End.y <span class="red_color">-</span> line1Start.y)
+            );
+
+    <span class="red_color">if</span> (denominator <span class="red_color">==</span> <span class="purple_color">0</span>) {
+      <span class="red_color">return</span> <span class="purple_color">false</span>;
+    }
+
+    a <span class="red_color">=</span> line1Start.y <span class="red_color">-</span> line2Start.y;
+    b <span class="red_color">=</span> line1Start.x <span class="red_color">-</span> line2Start.x;
+    numerator1 <span class="red_color">=</span> ((line2End.x <span class="red_color">-</span> line2Start.x) <span class="red_color">*</span> a) <span class="red_color">-</span> ((line2End.y <span class="red_color">-</span> line2Start.y) <span class="red_color">*</span> b);
+    numerator2 <span class="red_color">=</span> ((line1End.x <span class="red_color">-</span> line1Start.x) <span class="red_color">*</span> a) <span class="red_color">-</span> ((line1End.y <span class="red_color">-</span> line1Start.y) <span class="red_color">*</span> b);
+    a <span class="red_color">=</span> numerator1 <span class="red_color">/</span> denominator;
+    b <span class="red_color">=</span> numerator2 <span class="red_color">/</span> denominator;
+
+    <span class="red_color">if</span> (a <span class="red_color">></span> <span class="purple_color">0</span> <span class="red_color">&&</span> a <span class="red_color"><</span> 1) {
+      <span class="red_color">return</span> <span class="purple_color">true</span>;
+    } <span class="red_color">else if</span> (b <span class="red_color">></span> <span class="purple_color">0</span> <span class="red_color">&&</span> b <span class="red_color"><</span> <span class="purple_color">1</span>) {
+      <span class="red_color">return</span> <span class="purple_color">true</span>;
+    }
+    return <span class="purple_color">false</span>;
+  }
+
+   <span class="blue_color">function</span> <span class="green_color">Route</span>(<span class="orange_color">points</span>) {
+    <span class="red_color">if</span> (points <span class="red_color">instanceof</span>  <span class="blue_color">Array)</span> {
+      <span class="orange_color">this</span>.points <span class="red_color">=</span> points;
+    } <span class="red_color">else</span> {
+      <span class="orange_color">this</span>.points <span class="red_color">=</span> [];
+    }
+    <span class="orange_color">this</span>.distance <span class="red_color">=</span> <span class="purple_color">null</span>;
+    <span class="orange_color">this</span>.points <span class="red_color">=</span>  <span class="blue_color">clean</span>(<span class="orange_color">this</span>.points);
+    <span class="orange_color">this</span>. <span class="blue_color">updateDistance</span>();
+  }
+
+   <span class="blue_color">Route.prototype</span> <span class="red_color">=</span> {
+    <span class="green_color">clone</span>:  <span class="blue_color">function()</span> {
+       <span class="blue_color">var</span> route <span class="red_color">= new</span> Route(<span class="orange_color">this</span>.points. <span class="blue_color">slice</span>(<span class="purple_color">0</span>));
+      route.distance <span class="red_color">=</span> <span class="orange_color">this</span>.distance <span class="red_color">+</span> <span class="purple_color">0</span>;
+      <span class="red_color">return</span> <span class="orange_color">this</span>;
+    },
+    <span class="green_color">shuffleClone</span>: <span class="blue_color">function()</span> {
+      <span class="blue_color">var</span> array <span class="red_color">=</span> <span class="orange_color">this</span>.points.<span class="blue_color">slice</span>(<span class="purple_color">0</span>);
+      idea. <span class="blue_color">shuffle</span>(array);
+      <span class="red_color">return new</span> Route(array);
+    },
+    <span class="green_color">updateDistance</span>:  <span class="blue_color">function</span>() {
+      < <span class="blue_color">var</span> sum <span class="red_color">=</span> <span class="purple_color">0</span>,
+        points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
+        point,
+        previousPoint <span class="red_color">=</span> points[<span class="purple_color">0</span>],
+        i <span class="red_color">=</span> <span class="purple_color">1</span>,
+        max <span class="red_color">=</span> points.length;
+
+      sum <span class="red_color">+=</span>  <span class="blue_color">distance</span>(points[points.length <span class="red_color">-</span> <span class="purple_color">1</span>], points[<span class="purple_color">0</span>]);
+      <span class="red_color">for</span>(;i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
+        point <span class="red_color">=</span> points[i];
+        sum <span class="red_color">+=</span>  <span class="blue_color">distance</span>(previousPoint, point);
+        previousPoint <span class="red_color">=</span> point;
+      }
+      <span class="orange_color">this</span>.distance <span class="red_color">=</span>  <span class="blue_color">Math.round</span>(sum);
+      <span class="red_color">return</span> <span class="orange_color">this</span>;
+    },
+    <span class="green_color">distances</span>:  <span class="blue_color">function</span>() {
+       <span class="blue_color">var</span> distances <span class="red_color">=</span> [],
+        points = <span class="orange_color">this</span>.points,
+        point,
+        previousPoint <span class="red_color">=</span> points[<span class="purple_color">0</span>],
+        i <span class="red_color">=</span> <span class="purple_color">1</span>,
+        max <span class="red_color">=</span> points.length;
+
+      distances. <span class="blue_color">push</span>( <span class="blue_color">distance</span>(points[points.length <span class="red_color">-</span> <span class="purple_color">1</span>], points[<span class="purple_color">0</span>]));
+      <span class="red_color">for</span>(;i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
+        point <span class="red_color">=</span> points[i];
+        distances. <span class="blue_color">push</span>( <span class="blue_color">distance</span>(previousPoint, point));
+        previousPoint <span class="red_color">=</span> point;
+      }
+      <span class="red_color">return</span> distances;
+    },
+    <span class="green_color">flatten</span>:  <span class="blue_color">function</span>() {
+       <span class="blue_color">var</span> points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
+        point,
+        distances <span class="red_color">=</span> <span class="orange_color">this</span>. <span class="blue_color">distances</span>(),
+        distance,
+        i <span class="red_color">=</span> <span class="purple_color">0</span>,
+        max <span class="red_color">=</span> points.length,
+        flat <span class="red_color">=</span> [];
+
+      <span class="red_color">for</span> (; i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
+        distance <span class="red_color">=</span> distances[i];
+        point <span class="red_color">=</span> points[i];
+        flat. <span class="blue_color">push</span>(point.x);
+        flat. <span class="blue_color">push</span>(point.y);
+        flat. <span class="blue_color">push</span>(distance);
+      }
+      <span class="red_color">return</span> flat;
+    },
+    <span class="green_color">anyPoint</span>:  <span class="blue_color">function</span>() {
+       <span class="blue_color">var</span> points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
+        i <span class="red_color">=</span>  <span class="blue_color">Math.floor</span>( <span class="blue_color">Math.random</span>() <span class="red_color">*</span> (points.length <span class="red_color">-</span> <span class="purple_color">1</span>));
+
+      <span class="red_color">return</span> points[i];
+    },
+    <span class="green_color">intersectCount</span>:  <span class="blue_color">function</span>() {
+       <span class="blue_color">var</span> points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
+          line1Start,
+          line1End,
+          line2Start,
+          line2End,
+          i <span class="red_color">=</span> <span class="purple_color">0</span>,
+          j,
+          sum <span class="red_color">=</span> <span class="purple_color">0</span>,
+          max <span class="red_color">=</span> points.length;
+
+      <span class="red_color">for</span> (; i <span class="red_color"><</span> max;) {
+        line1Start <span class="red_color">=</span> points[i<span class="red_color">++</span>];
+        line1End <span class="red_color">=</span> points[i<span class="red_color">++</span>];
+        j <span class="red_color">=</span> <span class="purple_color">0</span>;
+        <span class="red_color">for</span> (; j <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
+          line2Start <span class="red_color">=</span> points[j<span class="red_color">++</span>];
+          line2End <span class="red_color">=</span> points[j<span class="red_color">++</span>];
+          <span class="red_color">if</span> (line2Start <span class="red_color">===</span> line1Start <span class="red_color">||</span> line2Start <span class="red_color">===</span> line1End) <span class="red_color">continue</span>;
+          <span class="red_color">if</span> (line2End <span class="red_color">===</span> line1Start <span class="red_color">||</span> line2End <span class="red_color">===</span> line1End) <span class="red_color">continue</span>;
+          <span class="red_color">if</span> ( <span class="blue_color">checkLineIntersection</span>(line1Start, line1End, line2Start, line2End)) {
+            sum<span class="red_color">++</span>;
+          }
+        }
+      }
+
+      <span class="red_color">return</span> sum;
+    }
+  };
+
+   <span class="blue_color">Route</span>.<span class="green_color">createRandom</span> =  <span class="blue_color">function</span>(<span class="orange_color">settings</span>) {
+     <span class="blue_color">var</span> count <span class="red_color">=</span> settings.count,
+      width <span class="red_color">=</span> settings.width,
+      height <span class="red_color">=</span> settings.height,
+      points <span class="red_color">=</span> [],
+      point,
+      i <span class="red_color">=</span> <span class="purple_color">0</span>;
+
+    <span class="red_color">for</span>(;i <span class="red_color"><</span> count; i<span class="red_color">++</span>) {
+      point <span class="red_color">=</span> {
+        x:  <span class="blue_color">Math.floor</span>( <span class="blue_color">Math.random</span>() <span class="red_color">*</span> width),
+        y:  <span class="blue_color">Math.floor</span>( <span class="blue_color">Math.random</span>() <span class="red_color">*</span> height)
+      };
+      points. <span class="blue_color">push</span>(point);
+    }
+    <span class="red_color">return new</span> Route(points);
+  };
+
+  <span class="red_color">return</span> Route;
+})();
+</p>
+
+
+<p class="essay">One of the biggest problem we face today is dealing with Big data. Big data is an extremely large data sets that could analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. As population growth increases, so will our dependencies on Ai to maintain these large data sets. We depend so much on AI in that without it, our current society could not exit. The goal of obtain an easier way of living has driven companies to compete in innovations of AI. AI technology is used everywhere in banks and financial system, medical sciences, heavy industries, air transport, games and more. For those with smarts phone we use AI every day when we check our phones. Should we be afraid of AI taking over the world? It is scary to think that the Anthropocene could include AI but that does not mean it is a bad thing. The advancement of AI is growing but at the moment it still requires a lot of human supervision and modifications before it can compare to our science fiction movies. More importantly than being concern about AI destroying the human race we should be questioning the process of how AI should be brought up or improve. Are companies doing right by pushing immature AI technologies into customer’s hands without being fully developed or thought out? 
+YouTube is an American video-sharing website that provides a centralized platform for users to upload and monetize on their videos. On February 23, 2015 YouTube launched their kid friendly app, YouTube Kids, to the Android and iOS Store. YouTube Kids provided a version of YouTube for younger kids along with video filters and parental control features including the ability to “disable search completely, limit screen time and cap the volume.” Ironically, these services provided an opportunity for people around the world to exploit children as means of entertainment and gain capital. 
+Across YouTube recently, there were alarming amount of videos involving the exploitation of children in unsettling situations from predatory to creepy; </p>
+<p class="essay" >“BuzzFeed News has found a number of videos, many of which appear to originate from eastern Europe, that feature young children, often in revealing clothing, placed in vulnerable scenarios. In many instances, they're restrained with ropes or tape and sometimes crying or in visible distress. In other videos, the children are kidnapped, or made to 'play doctor' with an adult. The videos frequently include gross-out themes like injections, eating feces, or needles. Many come from YouTube 'verified' channels and have tens of millions of views.”</p>
+
+<p class="essay" >YouTube faced a lot of backlash for unsettling animated videos and bizarre content, which were aimed at children using family-friendly characters, bypassing YouTube Kids’ filters. 
+A mother from Indiana found her 3-year-old son, Isaac, watching PAW Patrol Babies Pretend to Die Suicide by Annabelle Hypnotized, “a nightmarish imitation of an animated series in which a boy and a pack of rescue dogs protect their community from troubles like runaway kittens and rock slides. In the video, some characters died and one walked off a roof after being hypnotized by a likeness of a doll possessed by a demon.”
+After advertiser started pulling their advertisement off YouTube’s platform once again, it finally started cracking down on these channels. </p>
+
+<p class="essay" >“YouTube has deleted 150,000 videos that had become targets for comments by child predators, the site confirmed to Vice. The company also deleted 270 accounts and turned off comments for 625,000 videos.  YouTube also removed ads from another 2 million videos and 50,000 channels to stop those channels from profiting from disturbing content.”</p>
+
+<p class="essay" >
+In its official blog, YouTube also laid out 5 ways they are toughening their approach to protect families on YouTube and YouTube Kids:
+•	Tougher application of community guidelines and faster enforcement through technology
+•	Removing ads from inappropriate videos targeting families
+•	Blocking inappropriate comments on videos featuring minors
+•	Providing guidance for creators who make family-friendly content
+•	Engaging and learning from experts
+</p>
+<p class="essay" >Although YouTube is taking action to fix this problem, the situation begs people to question on the reliance on AI and algorithms and their level of efficiency. “Today YouTube has a whopping 3.25 billion video hours watched each day, with 1.3billion viewers at a rate of 30 million visitors per day.” On a huge video platform like Youtube with millions of videos uploaded everyday it is impossible to have humans monitors and review the videos. In a world of Big Data it seems that AI is favorable, but in the case of YouTube AI it clear that AI is unable, at the moment, to handle the task. In the situation above, how does it protect kid friendly channels? How does an AI determine which videos are appropriate for children to watch and which are not? In order to do that it needs to understand how children learn and how their surrounding environments shape who they are. To search and suggest videos appropriately YouTube’s AI should understand and take into consideration elements about the user like their values, cultures, age groups, and be able to distinguish between what is immorally right or wrong. It clear that YouTube’s AI still needs a lot work and that goes for all AI out there. The next stage for fixing centralized multi-media platforms like YouTube is to decentralize its core. </p>
+
+<p class="essay" >YouTube provides a centralized platform for user to host videos on its server. For this reason, they are the middle men between users and advertisers. “There is a 45/55 split for all content creators, so Google keeps 45 percent of all YouTube advertising on videos, and [its creators] get the remaining 55 percent.” Most of YouTube’s responses to its history of incidences correlate directly to the actions of its advertisers. In this way YouTube cared more about its advertisers than its content creators. Moving from a centralized platform with significant costs to a decentralized one and embracing blockchain techology is the next fundamental step in eliminating the middle man and giving control back to content creators and advertisers.</p>
+
+<p class="essay" >What is blockchain? Blockchain is a secure way of transferring digital currency to different parties and is current used as the platform for Bitcoin. In the simplest terms blockchain is a data structure. That is, a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. We can think of blockchain as a large distributed ledger that has been replicated many times, like blocks, across a public network so that it is available to everyone. “Every time a new transaction is initiated, a block is created with the transactions details and broadcast to all the other blocks”. Every block is built on top of one another, like a chain, and therefore each of them has a reference to its previous block inside the network. “Once the authenticity of the transaction is established, that block is linked to the previous block, which is linked to the previous block, creating a chain called blockchain. This chain of blocks is replicated across the entire network, and all cryptographically secured which makes it not only challenging, but almost impossible to hack.” Data on the blockcahin is virtually immutable. This is because if someone decides to modify the transaction he or she will have to modify the transaction details in every block inside the network which is virtually impossible with today’s technology. This also makes it very easy to spot a hacker because any attempts to modify the transaction details would be override by the other blocks. In the case of YouTube, Blockchain has the potietial to eliminate YouTube’s 45% revenue cut and instead send the currency right to the content creator. Blockchain allows for peer-to-peer interaction and negotiations through smart contracts which are a program of agreements between creators and advertisers. Some competitors are already working on bringing their platform to the public.</p>
+
+<p class="essay" >Flixxo is an innovative social video distribution platform that uses decentralized blockchain technology. Flixxo eliminates intermediaries by letting advertisers, viewers, and content creators engage with each other directly. On Flixxo all users share any content they have on their device with the rest of the community using Bittorrent protocol. Flixxo used its own tokens called Flixxs. Flixxs are “used by users to watch videos, by producers to monetize their work and incentivize the network, and by advertisers to pay for a moment of your attention. Then advertisers need to buy Flixx from content producers, creating a complete, closed and organic token economy.”Blockchain technology holds a lot of opportunities for many applications but companies needs to make sure they do not push out products immaturely. A question that was not really answered by Flixxo was how content creator can spend their currency in the real world. Futhermore, blockchain is not un-hackable.</p>
+
+<p class="essay" >It is true that data stored in to the blocks are immutable and therefore un-hackable but that does not mean that the code and systems that implement the technology can’t be hacked. MtGox, once the largest Tokyo-based bitcoin exchange, was hacked in March 2014, and bitcoins worth $700 million were stolen. There was also a recent incident in 2016 with Ethereum, a cryptocurrency similar to bitcoins. The hacker was able to spot out a weak point in the software and stoled $50 million worth of Ethereum.</p>
+
+<p class="essay" >The fear of AI taking over the world is definitely a possibility but that does not mean we should quit its development. AI is advancing and it is a scary idea but we are still dealing with AI that are not that smart yet. AI works best when it involves humans. Metaphorically, AI represents the mind and humans are the heart. We exist in a symbiotic relation and depend on one another to function appropriately. The YouTube child exploitation incident is an example on the efficiency of AI in the absence of human monitoring. It also showed loop holes in YouTube’s platform. The problem with developing AI in a capitalist environment is everyone is always competing to benefit themselves. This in turn leads to companies pushing products that might not be fully thought out, fully tested, or fully implemented. Why should we worried about the apocalypse of machines getting rid of humans when we cannot even stop stealing from one another? </p>
+
+</div>
+</div>
+</body>
+<script src="idea.js"></script>
+
+<script src="George.js"></script>
+<script src="GeorgeController.js"></script>
+<script src="Newman.js"></script>
+<script src="NewmanController.js"></script>
+<script src="Jerry.js"></script>
+<script src="JerryController.js"></script>
+<script src="Route.js"></script>
+<script src="canvas.js" id="theCanvas"></script>
+<script>
+  //
+  function refresh_canvas(){
+  	clearInterval(myVar);
+  	ctx.clearRect(0,0,canvas.width, canvas.height);
+  	document.querySelector("body").removeChild(document.querySelector("#theCanvas"));
+  	redraw();
+  }
+  function redraw(){
+  	var newScript = document.createElement("SCRIPT")
+  	newScript.src = "canvas.js";
+  	newScript.id = "theCanvas"
+  	console.log(newScript.id);
+  	document.querySelector("body").appendChild(newScript);
+  	// myVar = setInterval(function() {run()}, 0);
+  	//location.reload(true);
+  }
+</script>
+</html>
