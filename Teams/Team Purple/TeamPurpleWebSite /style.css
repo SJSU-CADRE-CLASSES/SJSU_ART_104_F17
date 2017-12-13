@@ -7,6 +7,14 @@ body{
   background-color: #000000;
 }
 
+h1,h5 {
+  font-family: Consolas;
+  color: white;
+  text-align: center;
+  margin: 40px;
+
+}
+
 .purple_color{
   color: #ae81ff;
 }
