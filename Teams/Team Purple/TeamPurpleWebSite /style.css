@@ -31,8 +31,6 @@ body{
   color: #FFFFFF;
   font-family: Consolas;
   margin-left: 10px;
-  border-style: dashed;
-  border-color: red;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -41,8 +39,6 @@ body{
   color: #75715b;
   font-family: Consolas;
   margin-left: 10px;
-  border-style: dashed;
-  border-color: red;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -74,9 +70,6 @@ body{
 #names{
   font-family: Consolas;
   color: #FFFFFF;
-/*  margin-top:405px;*/
-  /*border-style: dashed;
-  border-color: yellow;*/
   text-align: center;
  
 }

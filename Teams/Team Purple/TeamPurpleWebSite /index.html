@@ -12,9 +12,9 @@
 			<canvas id="canvas" >	
 			</canvas>
         <div id="names">
-        <div style="color: rgb(73, 76, 209);">George distance<span id="georgeDistance"></span></div>
-        <div style="color: rgb(52, 59, 87);">Newman distance <span id="newmanDistance"></span></div>
-        <div style="color: rgb(101, 173, 232);">Jerry distance<span id="jerryDistance"></span></div>
+        <div style="color: rgb(73, 76, 209);">People distance</div>
+        <div style="color: rgb(52, 59, 87);">Self Driving Car distance</div>
+        <div style="color: rgb(101, 173, 232);">Ai distance</div>
         <div>
         	<button onclick="refresh_canvas()">Refresh</button>
         </div>
@@ -26,18 +26,26 @@
 	<span class="blue_color">var</span> Route <span class="red_color">=</span> (<span class="blue_color">function</span>() {
   <span class="blue_color">function</span><span class="green_color"> distance</span>(<span class="orange_color">p1</span>, <span class="orange_color">p2</span>){
     <span class="red_color">return</span>  <span class="blue_color">Math.sqrt</span>((p1.x<span class="red_color">-</span>p2.x)<span class="red_color">*</span>(p1.x<span class="red_color">-</span>p2.x) <span class="red_color">+</span> (p1.y<span class="red_color">-</span>p2.y)<span class="red_color">*</span>(p1.y<span class="red_color">-</span>p2.y));
-  }
+  }</p>
 
+
+<p class="code">
    <span class="blue_color">function</span> <span class="green_color">clean</span>(<span class="orange_color">points</span>) {
     <span class="red_color">return</span> points. <span class="blue_color">filter</span>( <span class="blue_color">function</span> (<span class="orange_color">n</span>) {
       <span class="red_color">return</span> n <span class="red_color">!==</span> <span class="purple_color">null</span> <span class="red_color">&&</span> n <span class="red_color">!==</span> <span class="purple_color">undefined</span>;
     });
   }
 </p>
-<p class="essay"> With the emergence of smarter and smarter artificial intelligence, the concept of the singularity and the fears concerning very intelligent machines becomes prevalent in the minds of many. The idea that one day we might be melded with or even replaced by machines is a scary idea, and one that could come true in the near future. One of the first fears of computers becoming sentient is the idea that if and when computers gain intelligence greater than or equal to our own, the machines will revolt against us. This is an idea that is very popular in science fiction and Hollywood with movies like The Terminator and the book and movie I, Robot being some of the most recent adaptations of the idea in the last few decades. As humans we fear the unknown and part of this unknown is the possibility that our creation becomes uncaring of our existence and merely sees us as a lower species that needs to be eradicated. In the present day, however, AI is still far away from achieving singularity as it still requires a substantial amount of human intervention and monitoring as it adapts to our needs. </p>
+<p class="essay">
+  As technology advances, AI become a more integral part of everyday life. AI technologies are now used in many mainstream applications. All mobile devices, for example, have some form of intelligent personal assistants on them such as Siri, Cortana, and Google. These AIs are embedded with various artificial technologies such as natural language processing, smart searches, intelligent interface, and recommendation systems. The growing numbers of smarter AI and their autonomous decision making raises some questions for optimization. These questions fall under the topic of graph theory.</p>
 
 <p class="code">
-  <span class="blue_color"> function</span><span class="green_color"> checkLineIntersection </span>(<span class="orange_color">line1Start</span>, <span class="orange_color">line1End</span>, <span class="orange_color">line2Start</span>, <span class="orange_color">line2End</span>) {
+  <span class="blue_color"> function</span><span class="green_color"> checkLineIntersection </span>(<span class="orange_color">line1Start</span>, <span class="orange_color">line1End</span>, <span class="orange_color">line2Start</span>, <span class="orange_color">line2End</span>) {</p>
+
+<p class="essay">
+Graph theory is not simply just the study graphs; It is the sub-field of mathematics concerned with networks of points connected by lines. Graphs are important for representing mathematical structures that model relations between objects. It is one of the most useful tool in the branches of mathematics and computer science for visualizing data and modeling real world systems. Within graph theory lies a certain interest for problems that deals with finding the best path on a graph. A well-known problem is the traveling salesman problem which continues to attract the attention of many researchers because of its applications in routing data, products, and people. Knowing more about traveling salesman problem(TSP) will help us identify underlying issues within artificial intelligent systems like YouTube and self-driving cars. </p>
+
+  <p class="code">
      <span class="blue_color">var</span> a,
         b,
         numerator1,
@@ -46,83 +54,258 @@
                 (line2End.y <span class="red_color">-</span> line2Start.y)
                 <span class="red_color">*</span> (line1End.x <span class="red_color">-</span> line1Start.x)
             )
+          </p>
+<p class="essay">
+According to the authors of The Traveling Salesman Problem and Its Variations, solving the TSP is to find a routing of a salesman who starts from a home location, visits a prescribed set of cites and returns to the original location in such a way that the total distance travelled is minimum and each city is visited exactly once. </p> 
+
+
+
+          <p class="code">
             <span class="red_color">-</span> (
                 (line2End.x <span class="red_color">-</span> line2Start.x)
                 <span class="red_color">*</span> (line1End.y <span class="red_color">-</span> line1Start.y)
             );
+    </p>
 
+
+<p class="essay">
+The studying of TSP began in the mid-nineteenth century with Irish Mathematician Sir William Rowan Hamilton and by the British Mathematician Thomas Penyngton Kirkman. Hamilton created the Icosian Game, a mathematical game that required players to find a Hamiltonian cycle along the edges of a dodecahedron. The Hamiltonian cycle is a path within a graph that visits every vertex only once. TSP was not officially recognized until it was studied and redefined by Dr. Karl Menger, Professor of Mathematics at the Illinois Institute of Technology, in the 1930s. </p>
+
+    <p class="code">
     <span class="red_color">if</span> (denominator <span class="red_color">==</span> <span class="purple_color">0</span>) {
       <span class="red_color">return</span> <span class="purple_color">false</span>;
     }
+  </p>
 
+
+
+<p class="essay">
+TSP seems easy to understand but it is much more difficult to solve. The formula for calculating the number of routes through given cities is   where n represents the number of cities. Given a small amount of cities we could easily identify, from the results, which is the most optimal routes. For example, five cites yields (5-1)!/2 giving us 12 possible routes. Unfortunate, a problem arises when we introduce larger numbers into the equation. Modern computers cannot go through all possibilities that TSP produce. Finding the most optimal route between just 11 cities yields 1,814,400 possibilities to search through.</p>
+
+  <p class="code">
     a <span class="red_color">=</span> line1Start.y <span class="red_color">-</span> line2Start.y;
-    b <span class="red_color">=</span> line1Start.x <span class="red_color">-</span> line2Start.x;
-    numerator1 <span class="red_color">=</span> ((line2End.x <span class="red_color">-</span> line2Start.x) <span class="red_color">*</span> a) <span class="red_color">-</span> ((line2End.y <span class="red_color">-</span> line2Start.y) <span class="red_color">*</span> b);
+  </p>
+
+<p class="essay">
+TSP is one of the most intensely studied problems in computational mathematics and yet no effective solution method is known for the general case. The TSP is an NP-complete problem, meaing that cannot be solved in a reasonable amount of time due to the extreme number of cases. Anyone who is able to solve the TSP would be able to fetch a $1,000,000 prize from the Clay Mathematics Institute, a mathematical non-profit foundation. </p>
+
+
+
+  <p class="code">
+    b <span class="red_color">=</span> line1Start.x <span class="red_color">-</span> line2Start.x;</p>
+    
+<p class="essay">
+Far from being just a mathematical curiosity, the TSP has many practical applications. Scientists have been finding ways to optimize the process in logistics and social networking. Delivery companies like UPS and FedEx need to constrain the numbers of trucks they have for every delivery route. UPS has a driving system, designed by their programmers and software engineers, that encourage drivers to make less left turns to save time. Another application is music production and distribution. There is an artist named Jason who use to produce new music using graph theory. He also used common industry applications like MySQL and PHP to create his musical score based on pieces that people enjoyed; the web application is called graph theory. The application forms a community that comes together to write electronic music. </p>
+
+      <p class="code">
+    numerator1 <span class="red_color">=</span> ((line2End.x <span class="red_color">-</span> line2Start.x) <span class="red_color">*</span> a) <span class="red_color">-</span> ((line2End.y <span class="red_color">-</span> line2Start.y) <span class="red_color">*</span> b);</p>
+
+
+<p class="essay">
+With a more understand about the TSP, we will further discuss its similarities to AI recommendation systems used today in online platforms like YouTube. </p>
+
+    <p class="code">
     numerator2 <span class="red_color">=</span> ((line1End.x <span class="red_color">-</span> line1Start.x) <span class="red_color">*</span> a) <span class="red_color">-</span> ((line1End.y <span class="red_color">-</span> line1Start.y) <span class="red_color">*</span> b);
+  </p>
+
+<p class="essay">
+YouTube's recommendations system, which is part of google, is comprised of two neural networks: one for candidate generation and one for ranking. “The candidate generation network takes events from the user’s YouTube activity history as input and retrieves a small subset(hundreds) of videos from a large corpus.” The algorithm tries its best to deconstruct its audience by paying attention to things like: what they do or don’t watch, how much time they spend watching, likes and dislike, and feedbacks. During the development phase, Google uses offline metrics to test for performance but the final decision on whether the algorithm should be implemented comes from A/B testing. </p>
+
+
+  <p class="code">
     a <span class="red_color">=</span> numerator1 <span class="red_color">/</span> denominator;
     b <span class="red_color">=</span> numerator2 <span class="red_color">/</span> denominator;
+</p>
+  
 
+
+<p class="essay">
+As stated by Erik Martin, A/B testing is the term used for randomly experimenting with a control variable (A) and an experiment variable (B) for the purpose of statistically testing a hypothesis. Applying A/B testing to online sites, it is the process of testing and comparing two similar versions (A and B) of one or more web/mobile pages to determine which ones per­form better and produce better conversion rates-which can include sales, hits, leads, and click-throughs-among randomly sampled, but similar, visitors.”</p>
+
+
+<p class="code">
     <span class="red_color">if</span> (a <span class="red_color">></span> <span class="purple_color">0</span> <span class="red_color">&&</span> a <span class="red_color"><</span> 1) {
       <span class="red_color">return</span> <span class="purple_color">true</span>;
-    } <span class="red_color">else if</span> (b <span class="red_color">></span> <span class="purple_color">0</span> <span class="red_color">&&</span> b <span class="red_color"><</span> <span class="purple_color">1</span>) {
+    } <span class="red_color">else if</span> (b <span class="red_color">></span> 
+</p>
+
+
+<p class="essay">
+Having a recommended list of videos require a way to distinguish which one should show up in front of others. The ranking network “assigns a score to each video according to a desired objective function using a rich set of features describing the video and user. The highest scoring videos are presented to the user, ranked by their score. According to Google, “the two-stage approach to recommendation allows YouTube to make recommendations from millions of videos while still being certain that the small number of videos appearing on the devices are personalized and engaging for the user.”</p>
+
+
+<p class="code">
+    <span class="purple_color">0</span> <span class="red_color">&&</span> b <span class="red_color"><</span> <span class="purple_color">1</span>) {
       <span class="red_color">return</span> <span class="purple_color">true</span>;
     }
     return <span class="purple_color">false</span>;
   }
+</p>
 
+<p class="essay">
+On their creator’s site, YouTube stated that its goal is to get people to watch more videos that they enjoy so that they comes back to YouTube regularly. An issue with this is that YouTube is closing their users in a bubble and preventing them from experiencing new content and variety across their huge platform. At the moment, YouTube’s AI technology is not advance enough to determine what we want to watch. Instead, it is basically showing us videos relevant to other videos we already seen.  A post on reddit titled “Why is Youtube's recommendation system so bad?”, submitted on August January 2017, shared different perspectives and experiences with YouTube. Here are some comments from the post:</p>
+
+<p class="code">
    <span class="blue_color">function</span> <span class="green_color">Route</span>(<span class="orange_color">points</span>) {
     <span class="red_color">if</span> (points <span class="red_color">instanceof</span>  <span class="blue_color">Array)</span> {
       <span class="orange_color">this</span>.points <span class="red_color">=</span> points;
     } <span class="red_color">else</span> {
       <span class="orange_color">this</span>.points <span class="red_color">=</span> [];
     }
+  </p>
+
+
+
+<p class="essay">
+  “Came here to post about this. It's terrible, like bucket loads of recommendations for  the same type of video I've only watched a couple of times. It used to be really good but   now I feel like I can't discover new content because I'm just being bombarded with the  same stuff daily….”</p>
+
+
+  <p class="code">
     <span class="orange_color">this</span>.distance <span class="red_color">=</span> <span class="purple_color">null</span>;
     <span class="orange_color">this</span>.points <span class="red_color">=</span>  <span class="blue_color">clean</span>(<span class="orange_color">this</span>.points);
     <span class="orange_color">this</span>. <span class="blue_color">updateDistance</span>();
   }
+</p>
 
+
+<p class="essay">
+  “I'm pretty sure "Not interested" doesn't do anything. I've been clicking this thing on   certain videos like Overwatch, old Marvel and DC animations, old pokemon videos etc   etc and they still seem to be popping up on my recommendations. I haven't been able to  find videos I'm actually interested in through recommendations in weeks and since I   used to use the feature a lot to find new interesting videos this seems pretty abysmal.”</p>
+
+<p class="code">
    <span class="blue_color">Route.prototype</span> <span class="red_color">=</span> {
     <span class="green_color">clone</span>:  <span class="blue_color">function()</span> {
        <span class="blue_color">var</span> route <span class="red_color">= new</span> Route(<span class="orange_color">this</span>.points. <span class="blue_color">slice</span>(<span class="purple_color">0</span>));
       route.distance <span class="red_color">=</span> <span class="orange_color">this</span>.distance <span class="red_color">+</span> <span class="purple_color">0</span>;
       <span class="red_color">return</span> <span class="orange_color">this</span>;
-    },
-    <span class="green_color">shuffleClone</span>: <span class="blue_color">function()</span> {
+    },</p>
+
+
+  
+<p class="essay">  
+Similar to TSP, YouTube is incapable of showing every individual search result without slowing down people’s computers so its algorithm prioritizes certain videos over others. How does one keep him or herself from ending up on the bottom of the list or buried in the middle of the scrap pile? Most if not all users rarely spend their time going through the different page results to find the video they are looking for. What happens when someone’s video is on page 20? YouTube’s advice to their creator is simply to do their best in making their videos stand out; offering advice from editing titles to having eye catching thumbnails. In plain English, everyone is on his or her own. Is technology advance enough to let an AI determine and rank the hierarchy videos that appear on the screen? How does it determine if a video is creative or not when this kind of thing is subjective? As stated above, the YouTube algorithm looks for engagement: contents watched, time spent watching, likes and dislikes etc. It is unfair to judge a video simply by just looking at its surrounding activity. </p>
+
+    <p class="code">
+    <span class="green_color">shuffleClone</span>: <span class="blue_color">function()</span> {</p>
+
+
+    <p class="essay">
+What does this mean for artist and the distribution of their creative content? Newcomers to the exiting platform will have a harder time establishing a fan/subscriber base because they are less known. YouTube’s system punishes creators of smaller channels making it harder for them to promote themselves. Its algorithm favors larger channels that have already established a good standing. These issues have been lingering for a while now and it is only going to get worse as the platform expands.</p>
+
+
+
+
+    <p class="code">
       <span class="blue_color">var</span> array <span class="red_color">=</span> <span class="orange_color">this</span>.points.<span class="blue_color">slice</span>(<span class="purple_color">0</span>);
       idea. <span class="blue_color">shuffle</span>(array);
       <span class="red_color">return new</span> Route(array);
-    },
+    },</p>
+
+    <p class="essay">
+Optimization problems in AI technology also exist in many places other than YouTube. Advances in technology have allowed for self-driving cars to become a reality. While self-driving cars bring amazing opportunities for the public, the safety rules pose a challenge.</p>
+
+
+    <p class="code">
     <span class="green_color">updateDistance</span>:  <span class="blue_color">function</span>() {
       < <span class="blue_color">var</span> sum <span class="red_color">=</span> <span class="purple_color">0</span>,
         points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
+      </p>
+
+<p class="essay">
+Self-driving cars have a number of benefits that may enhance our lives. Because of the extensive technology implemented in self-driving cars, the accurate readings have virtually eliminated driving errors for test cars on the road. The calculations read how far the car is from an object, the speed, the conduct of other cars on the road, and the location. These calculations beat the errors humans make while on the road when in control.</p>
+
+
+
+
+
+
+      <p class="code">
         point,
         previousPoint <span class="red_color">=</span> points[<span class="purple_color">0</span>],
         i <span class="red_color">=</span> <span class="purple_color">1</span>,
         max <span class="red_color">=</span> points.length;
+      </p>
 
+<p class="essay">
+Because error-free cars are in control on the road, they are rarely involved in accidents (at least in the sample test they’ve had so far). Their ability to reduce traffic jams comes from the superiority that these cars have to communicate with the cars around them, as well as the exact calculations to avoid colliding into other cars. The ability to have a self-driving car can be a help in high populated cities if parking is unavailable; the car can simply drop the person off and circle the block until he or she is ready to go.</p>
+
+      <p class="code">
       sum <span class="red_color">+=</span>  <span class="blue_color">distance</span>(points[points.length <span class="red_color">-</span> <span class="purple_color">1</span>], points[<span class="purple_color">0</span>]);
       <span class="red_color">for</span>(;i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
+    </p>
+
+
+<p class="essay">
+There might be some drawbacks even in the most exciting of technology. Self-driving cars are possible, thanks to the technology embedded into them, but this tech is all currently excessively expensive. Usually technology becomes cheaper the longer it exists and is obtainable by the public, so sooner or later self-driving cars may be affordable by anyone.</p>
+
+
+
+        <p class="code">
         point <span class="red_color">=</span> points[i];
         sum <span class="red_color">+=</span>  <span class="blue_color">distance</span>(previousPoint, point);
         previousPoint <span class="red_color">=</span> point;
       }
+    </p>
+
+
+<p class="essay">  
+Furthermore, the licensing infrastructure is not yet in place for self-driving cars to be able to be driven among us. The manufactures may say that they are safe, but it is up to public institutions to keep everyone safe and make sure these cars perform as publicized. They also need to carefully investigate if there could be a potential for greater pollution at hand. The ability to go watch a movie at the theater and leave your car idling, if it isn’t electric, could increase the emissions to an already cripple environment.</p>
+
+
+
+
+<p class="code">
       <span class="orange_color">this</span>.distance <span class="red_color">=</span>  <span class="blue_color">Math.round</span>(sum);
       <span class="red_color">return</span> <span class="orange_color">this</span>;
     },
+  </p>
+
+
+<p class="essay">
+Lastly, using a self-driving car means a third party would ultimately have the opportunity to track your movement and location. Because the car would be sharing data with central points, our location could be available to people or groups who could hack into the car’s system.</p>
+
+
+
+  <p class="code">
     <span class="green_color">distances</span>:  <span class="blue_color">function</span>() {
        <span class="blue_color">var</span> distances <span class="red_color">=</span> [],
         points = <span class="orange_color">this</span>.points,
         point,
         previousPoint <span class="red_color">=</span> points[<span class="purple_color">0</span>],
+      </p>
+
+
+<p class="essay">
+Self-driving cars have the potential to be the next big technological advancement in humanity as we know it in the future. Increased efficiency, relaxation time, and possibly the abolition of danger while driving have the prospective to improve our lives greatly. Nevertheless, before they are available to the public, they need to be approved as safe and privacy considerations need to be solved. Nonetheless, self-driving cars bring remarkable emerging innovation that we should be inspecting vigilantly.</p>
+
+
+
+
+
+
+
+       <p class="code">
         i <span class="red_color">=</span> <span class="purple_color">1</span>,
         max <span class="red_color">=</span> points.length;
+</p>
 
+<p class="essay">
+People have become more and more familiar with using Artificial Intelligence everyday whether we know it or not. Over the past few decades, technology has made leaps and bounds in comparison to what it once used to be. We now have “smart” technology such as smart phones and smart TVs that can do much more than the products that came before them. With these new products becoming more and more prevalent in society, we have become more and more comfortable using them.</p>
+
+<p class="code">
       distances. <span class="blue_color">push</span>( <span class="blue_color">distance</span>(points[points.length <span class="red_color">-</span> <span class="purple_color">1</span>], points[<span class="purple_color">0</span>]));
       <span class="red_color">for</span>(;i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
         point <span class="red_color">=</span> points[i];
         distances. <span class="blue_color">push</span>( <span class="blue_color">distance</span>(previousPoint, point));
         previousPoint <span class="red_color">=</span> point;
-      }
+      }</p>
+
+
+<p class="essay">
+One of the first steps humanity has taken towards becoming more ingrained with technology is using machines and robots instead of using humans for certain jobs. As Truitt explains in his article Singularity - Are We There Yet? he states that “... robots… were things that were touted as making auto assembly lines more efficient.”  At the time, the machines were used to decrease production time and increase profit for the projects they were used for. Truitt also explains that another new machine used during that time was the ATM, which solved the problem of having to do banking during normal weekday hours. Instead, people could exchange cash at whatever time was convenient, which made banking much easier for the public to do. The question that remains is whether we can let artificial intelligence work with us as efficiently and as often as we use simpler machines today.</p>
+
+
+
+      <p class="code">
       <span class="red_color">return</span> distances;
     },
     <span class="green_color">flatten</span>:  <span class="blue_color">function</span>() {
@@ -133,6 +316,14 @@
         i <span class="red_color">=</span> <span class="purple_color">0</span>,
         max <span class="red_color">=</span> points.length,
         flat <span class="red_color">=</span> [];
+</p>
+
+
+<p class="essay">
+One way in which we are using artificial intelligence today is with new autonomous security robots. These robots patrol around designated and have cameras and sensors that can pick up criminal activity. These same type of robots with basic sensors and cameras are also used at an airport in Seoul. One of the robots, the Airport Guide Robot, “...is in place to interact with passengers. It can understand four languages -- Korean, English, Chinese and Japanese -- thanks to LG's voice recognition software. It can tell you where a restaurant is located or escort late passengers straight to their gate with a quick boarding pass scan.” </p>
+
+
+<p class="code">
 
       <span class="red_color">for</span> (; i <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
         distance <span class="red_color">=</span> distances[i];
@@ -141,12 +332,26 @@
         flat. <span class="blue_color">push</span>(point.y);
         flat. <span class="blue_color">push</span>(distance);
       }
+    </p>
+
+<p class="essay">
+One other robot is also present at the airport, the Cleaning Robot. The cleaning robot “...is in place to make sure the airport stays tidy by monitoring the areas that need the most frequent cleaning…” Both of these robots use a very minimal amount of artificial intelligence, such as using sensors and programs to determine when something needs to be cleaned or when passengers need help. They provide a service that is much cheaper than hiring a janitor or a guide to complete. These robots are the first step to letting machines become even more ingrained into our everyday life and activities. In a fascinating article written by Jamais Cascio he states that there are four possible scenarios to becoming even more intertwined than we already are with machines and artificial intelligence.</p>
+
+
+
+      <p class="code">
       <span class="red_color">return</span> flat;
     },
     <span class="green_color">anyPoint</span>:  <span class="blue_color">function</span>() {
        <span class="blue_color">var</span> points <span class="red_color">=</span> <span class="orange_color">this</span>.points,
         i <span class="red_color">=</span>  <span class="blue_color">Math.floor</span>( <span class="blue_color">Math.random</span>() <span class="red_color">*</span> (points.length <span class="red_color">-</span> <span class="purple_color">1</span>));
+      </p>
 
+
+<p class="essay">
+The first scenario is called Virtual Worlds, where people would become so immersed in virtual environments to the point that they spend most of their time in there instead of reality.  This virtual use Artificial Intelligence to further interact with us, such as using in video games to control characters, change scenery in a virtual environment, and react to players actions.</p>
+
+      <p class="code">
       <span class="red_color">return</span> points[i];
     },
     <span class="green_color">intersectCount</span>:  <span class="blue_color">function</span>() {
@@ -159,14 +364,28 @@
           j,
           sum <span class="red_color">=</span> <span class="purple_color">0</span>,
           max <span class="red_color">=</span> points.length;
+        </p>
 
+
+<p class="essay">
+The second scenario is called Mirror Worlds, a concept that mimics our world as it is now, but includes much more data that is accessible in an instant. This mirror of our world as it is now includes data which before could not be delivered so readily. It makes us much more intelligent and quicker with results. This data may also be captured with Artificial Intelligence to bring us faster and more reliable news. </p>
+
+
+
+        <p class="code">
       <span class="red_color">for</span> (; i <span class="red_color"><</span> max;) {
         line1Start <span class="red_color">=</span> points[i<span class="red_color">++</span>];
         line1End <span class="red_color">=</span> points[i<span class="red_color">++</span>];
         j <span class="red_color">=</span> <span class="purple_color">0</span>;
         <span class="red_color">for</span> (; j <span class="red_color"><</span> max; i<span class="red_color">++</span>) {
           line2Start <span class="red_color">=</span> points[j<span class="red_color">++</span>];
-          line2End <span class="red_color">=</span> points[j<span class="red_color">++</span>];
+          line2End <span class="red_color">=</span> points[j<span class="red_color">++</span>];</p>
+
+
+<p class="essay">
+The third scenario is one that has been developing and which is already taking place, called Augmented Reality. In this world, like the Mirror World, data is much more readily available but also viewable on a day to day life where before one might have needed a separate screen to view the data being displayed. In this world, data is all around the viewer and visible instantly because it is displayed at all times on all subjects. Artificial Intelligence could take this information and provide it at the correct moment in order to warn the viewer about oncoming obstacles or news that could be of vital importance at the moment; examples include the alert of traffic accidents and other scenarios that may need to be avoided at the current time. </p>
+
+          <p class="code">
           <span class="red_color">if</span> (line2Start <span class="red_color">===</span> line1Start <span class="red_color">||</span> line2Start <span class="red_color">===</span> line1End) <span class="red_color">continue</span>;
           <span class="red_color">if</span> (line2End <span class="red_color">===</span> line1Start <span class="red_color">||</span> line2End <span class="red_color">===</span> line1End) <span class="red_color">continue</span>;
           <span class="red_color">if</span> ( <span class="blue_color">checkLineIntersection</span>(line1Start, line1End, line2Start, line2End)) {
@@ -174,11 +393,29 @@
           }
         }
       }
+          </p>
 
+
+
+
+
+
+
+<p class="essay">The fourth and final scenario is lifelogging, or as Cascio also refers to it as the “participatory panopticon.” This is also something developing in today’s society, with the constant monitoring of everyone through security cameras, computer cameras, and smart phone cameras. People are already participating voluntarily in this scenario today, with the emergence of SnapChat and Instagram. As stated above, Youtube is using an algorithm already that shows content to certain viewers, and perhaps hide content from others. Everyone is already taking photos and recording everything they do, which makes the process of monitoring anyone in the world easier to a user or a program with the right access and permissions. </p>
+
+
+
+        <p class="code">
       <span class="red_color">return</span> sum;
     }
   };
+</p>
+  
 
+
+
+
+  <p class="code">
    <span class="blue_color">Route</span>.<span class="green_color">createRandom</span> =  <span class="blue_color">function</span>(<span class="orange_color">settings</span>) {
      <span class="blue_color">var</span> count <span class="red_color">=</span> settings.count,
       width <span class="red_color">=</span> settings.width,
@@ -186,7 +423,20 @@
       points <span class="red_color">=</span> [],
       point,
       i <span class="red_color">=</span> <span class="purple_color">0</span>;
+</p>
 
+
+
+
+<p class="essay">
+These four scenarios show how Artificial Intelligence and machinery are becoming more and more a part of our everyday lives. Some of this integration may seem too personal and intrusive, but it is our reality that we are slowly developing toward. We as a species are getting more advanced with the technology we create, and we are designating parts of our lives to Artificial Intelligence and machines whether we realize what we are doing, or maybe do not realize but accept in order to move forward with new technology and innovation.
+</p>
+
+
+
+
+
+<p class="code">
     <span class="red_color">for</span>(;i <span class="red_color"><</span> count; i<span class="red_color">++</span>) {
       point <span class="red_color">=</span> {
         x:  <span class="blue_color">Math.floor</span>( <span class="blue_color">Math.random</span>() <span class="red_color">*</span> width),
@@ -202,48 +452,33 @@
 </p>
 
 
-<p class="essay">One of the biggest problem we face today is dealing with Big data. Big data is an extremely large data sets that could analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. As population growth increases, so will our dependencies on Ai to maintain these large data sets. We depend so much on AI in that without it, our current society could not exit. The goal of obtain an easier way of living has driven companies to compete in innovations of AI. AI technology is used everywhere in banks and financial system, medical sciences, heavy industries, air transport, games and more. For those with smarts phone we use AI every day when we check our phones. Should we be afraid of AI taking over the world? It is scary to think that the Anthropocene could include AI but that does not mean it is a bad thing. The advancement of AI is growing but at the moment it still requires a lot of human supervision and modifications before it can compare to our science fiction movies. More importantly than being concern about AI destroying the human race we should be questioning the process of how AI should be brought up or improve. Are companies doing right by pushing immature AI technologies into customer’s hands without being fully developed or thought out? 
-YouTube is an American video-sharing website that provides a centralized platform for users to upload and monetize on their videos. On February 23, 2015 YouTube launched their kid friendly app, YouTube Kids, to the Android and iOS Store. YouTube Kids provided a version of YouTube for younger kids along with video filters and parental control features including the ability to “disable search completely, limit screen time and cap the volume.” Ironically, these services provided an opportunity for people around the world to exploit children as means of entertainment and gain capital. 
-Across YouTube recently, there were alarming amount of videos involving the exploitation of children in unsettling situations from predatory to creepy; </p>
-<p class="essay" >“BuzzFeed News has found a number of videos, many of which appear to originate from eastern Europe, that feature young children, often in revealing clothing, placed in vulnerable scenarios. In many instances, they're restrained with ropes or tape and sometimes crying or in visible distress. In other videos, the children are kidnapped, or made to 'play doctor' with an adult. The videos frequently include gross-out themes like injections, eating feces, or needles. Many come from YouTube 'verified' channels and have tens of millions of views.”</p>
 
-<p class="essay" >YouTube faced a lot of backlash for unsettling animated videos and bizarre content, which were aimed at children using family-friendly characters, bypassing YouTube Kids’ filters. 
-A mother from Indiana found her 3-year-old son, Isaac, watching PAW Patrol Babies Pretend to Die Suicide by Annabelle Hypnotized, “a nightmarish imitation of an animated series in which a boy and a pack of rescue dogs protect their community from troubles like runaway kittens and rock slides. In the video, some characters died and one walked off a roof after being hypnotized by a likeness of a doll possessed by a demon.”
-After advertiser started pulling their advertisement off YouTube’s platform once again, it finally started cracking down on these channels. </p>
-
-<p class="essay" >“YouTube has deleted 150,000 videos that had become targets for comments by child predators, the site confirmed to Vice. The company also deleted 270 accounts and turned off comments for 625,000 videos.  YouTube also removed ads from another 2 million videos and 50,000 channels to stop those channels from profiting from disturbing content.”</p>
-
-<p class="essay" >
-In its official blog, YouTube also laid out 5 ways they are toughening their approach to protect families on YouTube and YouTube Kids:
-•	Tougher application of community guidelines and faster enforcement through technology
-•	Removing ads from inappropriate videos targeting families
-•	Blocking inappropriate comments on videos featuring minors
-•	Providing guidance for creators who make family-friendly content
-•	Engaging and learning from experts
+<p class="essay">
+//////////////  
+End of Essay
+Thanks for reading
+<hr>
 </p>
-<p class="essay" >Although YouTube is taking action to fix this problem, the situation begs people to question on the reliance on AI and algorithms and their level of efficiency. “Today YouTube has a whopping 3.25 billion video hours watched each day, with 1.3billion viewers at a rate of 30 million visitors per day.” On a huge video platform like Youtube with millions of videos uploaded everyday it is impossible to have humans monitors and review the videos. In a world of Big Data it seems that AI is favorable, but in the case of YouTube AI it clear that AI is unable, at the moment, to handle the task. In the situation above, how does it protect kid friendly channels? How does an AI determine which videos are appropriate for children to watch and which are not? In order to do that it needs to understand how children learn and how their surrounding environments shape who they are. To search and suggest videos appropriately YouTube’s AI should understand and take into consideration elements about the user like their values, cultures, age groups, and be able to distinguish between what is immorally right or wrong. It clear that YouTube’s AI still needs a lot work and that goes for all AI out there. The next stage for fixing centralized multi-media platforms like YouTube is to decentralize its core. </p>
 
-<p class="essay" >YouTube provides a centralized platform for user to host videos on its server. For this reason, they are the middle men between users and advertisers. “There is a 45/55 split for all content creators, so Google keeps 45 percent of all YouTube advertising on videos, and [its creators] get the remaining 55 percent.” Most of YouTube’s responses to its history of incidences correlate directly to the actions of its advertisers. In this way YouTube cared more about its advertisers than its content creators. Moving from a centralized platform with significant costs to a decentralized one and embracing blockchain techology is the next fundamental step in eliminating the middle man and giving control back to content creators and advertisers.</p>
 
-<p class="essay" >What is blockchain? Blockchain is a secure way of transferring digital currency to different parties and is current used as the platform for Bitcoin. In the simplest terms blockchain is a data structure. That is, a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. We can think of blockchain as a large distributed ledger that has been replicated many times, like blocks, across a public network so that it is available to everyone. “Every time a new transaction is initiated, a block is created with the transactions details and broadcast to all the other blocks”. Every block is built on top of one another, like a chain, and therefore each of them has a reference to its previous block inside the network. “Once the authenticity of the transaction is established, that block is linked to the previous block, which is linked to the previous block, creating a chain called blockchain. This chain of blocks is replicated across the entire network, and all cryptographically secured which makes it not only challenging, but almost impossible to hack.” Data on the blockcahin is virtually immutable. This is because if someone decides to modify the transaction he or she will have to modify the transaction details in every block inside the network which is virtually impossible with today’s technology. This also makes it very easy to spot a hacker because any attempts to modify the transaction details would be override by the other blocks. In the case of YouTube, Blockchain has the potietial to eliminate YouTube’s 45% revenue cut and instead send the currency right to the content creator. Blockchain allows for peer-to-peer interaction and negotiations through smart contracts which are a program of agreements between creators and advertisers. Some competitors are already working on bringing their platform to the public.</p>
 
-<p class="essay" >Flixxo is an innovative social video distribution platform that uses decentralized blockchain technology. Flixxo eliminates intermediaries by letting advertisers, viewers, and content creators engage with each other directly. On Flixxo all users share any content they have on their device with the rest of the community using Bittorrent protocol. Flixxo used its own tokens called Flixxs. Flixxs are “used by users to watch videos, by producers to monetize their work and incentivize the network, and by advertisers to pay for a moment of your attention. Then advertisers need to buy Flixx from content producers, creating a complete, closed and organic token economy.”Blockchain technology holds a lot of opportunities for many applications but companies needs to make sure they do not push out products immaturely. A question that was not really answered by Flixxo was how content creator can spend their currency in the real world. Futhermore, blockchain is not un-hackable.</p>
 
-<p class="essay" >It is true that data stored in to the blocks are immutable and therefore un-hackable but that does not mean that the code and systems that implement the technology can’t be hacked. MtGox, once the largest Tokyo-based bitcoin exchange, was hacked in March 2014, and bitcoins worth $700 million were stolen. There was also a recent incident in 2016 with Ethereum, a cryptocurrency similar to bitcoins. The hacker was able to spot out a weak point in the software and stoled $50 million worth of Ethereum.</p>
+<p class="essay" style="color: red; ">
+  This project used files from idea.js. Find more info on github link <a href="https://github.com/robertleeplummerjr/idea.js"  target="_blank" style="color: white;">here</a>
 
-<p class="essay" >The fear of AI taking over the world is definitely a possibility but that does not mean we should quit its development. AI is advancing and it is a scary idea but we are still dealing with AI that are not that smart yet. AI works best when it involves humans. Metaphorically, AI represents the mind and humans are the heart. We exist in a symbiotic relation and depend on one another to function appropriately. The YouTube child exploitation incident is an example on the efficiency of AI in the absence of human monitoring. It also showed loop holes in YouTube’s platform. The problem with developing AI in a capitalist environment is everyone is always competing to benefit themselves. This in turn leads to companies pushing products that might not be fully thought out, fully tested, or fully implemented. Why should we worried about the apocalypse of machines getting rid of humans when we cannot even stop stealing from one another? </p>
+</p>
 
 </div>
 </div>
 </body>
 <script src="idea.js"></script>
 
-<script src="George.js"></script>
-<script src="GeorgeController.js"></script>
-<script src="Newman.js"></script>
-<script src="NewmanController.js"></script>
-<script src="Jerry.js"></script>
-<script src="JerryController.js"></script>
+<script src="People.js"></script>
+<script src="PeopleController.js"></script>
+<script src="Self_Driving_Cars.js"></script>
+<script src="Self_Driving_Cars_Controller.js"></script>
+<script src="AI.js"></script>
+<script src="AIController.js"></script>
 <script src="Route.js"></script>
 <script src="canvas.js" id="theCanvas"></script>
 <script>
