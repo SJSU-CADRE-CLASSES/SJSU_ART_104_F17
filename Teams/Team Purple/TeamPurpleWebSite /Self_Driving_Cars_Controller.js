@@ -1,15 +1,15 @@
-var NewmanController = (function() {
+var Self_Driving_Cars_Controller = (function() {
   function distance(p1, p2) {
     return euclidean(p1.x-p2.x, p1.y-p2.y);
   }
   function euclidean(dx, dy) {
     return Math.sqrt(dx*dx + dy*dy);
   }
-  function NewmanController(settings) {
+  function Self_Driving_Cars_Controller(settings) {
     settings = settings || {};
 
     var self = this,
-      defaults = NewmanController.defaults,
+      defaults = Self_Driving_Cars_Controller.defaults,
       _settings = {},
       i;
     for (i in defaults) if (defaults.hasOwnProperty(i)) {
@@ -39,7 +39,7 @@ var NewmanController = (function() {
     });
   }
 
-  NewmanController.prototype = {
+  Self_Driving_Cars_Controller.prototype = {
     render: function(drawBackground) {
       if (drawBackground) {
         this.drawBackground()
@@ -117,7 +117,7 @@ var NewmanController = (function() {
     }
   };
 
-  NewmanController.defaults = {
+  Self_Driving_Cars_Controller.defaults = {
     ctx: null,
     count: 30,
     route: null,
@@ -125,5 +125,5 @@ var NewmanController = (function() {
     height: 1
   };
 
-  return NewmanController;
+  return Self_Driving_Cars_Controller;
 })();

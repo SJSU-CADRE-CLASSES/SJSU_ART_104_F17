@@ -1,7 +1,7 @@
 var canvas = document.getElementById('canvas'),
-      georgeDistance = document.getElementById('georgeDistance'),
-      newmanDistance = document.getElementById('newmanDistance'),
-      jerryDistance = document.getElementById('jerryDistance'),
+      peopleDistance = document.getElementById('peopleDistance'),
+      carDistance = document.getElementById('carDistance'),
+      aIDistance = document.getElementById('AIDistance'),
       ctx = canvas.getContext('2d'),
       width = canvas.width = window.innerWidth * 0.475,
       height = canvas.height = window.innerHeight *0.8,
@@ -10,19 +10,19 @@ var canvas = document.getElementById('canvas'),
         height: height,
         count: 15
       }),
-      george = new GeorgeController({
+      people = new peopleController({
         ctx: ctx,
         width: width,
         height: height,
         route: route
       }),
-      newman = new NewmanController({
+      car = new Self_Driving_Cars_Controller({
         ctx: ctx,
         width: width,
         height: height,
         route: route
       }),
-      jerry = new JerryController({
+      aI = new AIController({
         ctx: ctx,
         width: width,
         height: height,
@@ -55,20 +55,20 @@ var canvas = document.getElementById('canvas'),
       ctx.stroke();
     }
 
-    george
+    people
         .update()
         .drawRoute();
-    newman
+    car
         .update()
         .drawRoute();
-    jerry
+    aI
         .update()
         .drawRoute();
 
-    georgeDistance.innerHTML = george.foundShortestRoute.distance.toString();
-    newmanDistance.innerHTML = newman.foundShortestRoute.distance.toString();
-    if (jerry.colony.globalBest !== null) {
-      jerryDistance.innerHTML = jerry.colony.globalBest.tour.updateDistance().toString();
+    peopleDistance.innerHTML = people.foundShortestRoute.distance.toString();
+    carDistance.innerHTML = car.foundShortestRoute.distance.toString();
+    if (aI.colony.globalBest !== null) {
+      aIDistance.innerHTML = aI.colony.globalBest.tour.updateDistance().toString();
     }
   
   }

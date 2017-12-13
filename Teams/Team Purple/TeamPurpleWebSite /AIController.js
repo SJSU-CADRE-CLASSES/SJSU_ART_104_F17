@@ -1,6 +1,6 @@
-var JerryController = (function() {
-  function JerryController(settings) {
-    var defaults = JerryController.defaults,
+var AIController = (function() {
+  function AIController(settings) {
+    var defaults = AIController.defaults,
       _settings = {},
       points,
       graph,
@@ -32,7 +32,7 @@ var JerryController = (function() {
     this.colony.reset();
   }
 
-  JerryController.prototype = {
+  AIController.prototype = {
     drawRoute: function() {
       if (this.colony.globalBest === null) return this;
       var settings = this.settings,
@@ -62,7 +62,7 @@ var JerryController = (function() {
     }
   };
 
-  JerryController.defaults = {
+  AIController.defaults = {
     ctx: null,
     count: 30,
     route: null,
@@ -70,5 +70,5 @@ var JerryController = (function() {
     height: 1
   };
 
-  return JerryController;
+  return AIController;
 })();

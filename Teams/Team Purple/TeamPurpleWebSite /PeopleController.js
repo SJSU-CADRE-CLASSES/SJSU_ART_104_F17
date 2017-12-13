@@ -1,9 +1,9 @@
-var GeorgeController = (function() {
-  function GeorgeController(settings) {
+var peopleController = (function() {
+  function peopleController(settings) {
     settings = settings || {};
 
     var self = this,
-      defaults = GeorgeController.defaults,
+      defaults = peopleController.defaults,
       _settings = {},
       i;
     for (i in defaults) if (defaults.hasOwnProperty(i)) {
@@ -22,7 +22,7 @@ var GeorgeController = (function() {
     });
   }
 
-  GeorgeController.prototype = {
+  peopleController.prototype = {
     render: function(drawBackground) {
       if (drawBackground) {
         this.drawBackground();
@@ -115,7 +115,7 @@ var GeorgeController = (function() {
     }
   };
 
-  GeorgeController.defaults = {
+  peopleController.defaults = {
     ctx: null,
     count: 30,
     route: null,
@@ -124,5 +124,5 @@ var GeorgeController = (function() {
     dayTicks: 20
   };
 
-  return GeorgeController;
+  return peopleController;
 })();
