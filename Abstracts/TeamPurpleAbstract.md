@@ -1,25 +1,5 @@
 ## Team Purple: Abstract
 
-### Improving/Maintaining AI with blockchain and quantum cryptography
+### The Traveling Salesman Problem and AI
 
-Advances in Ai has created many opportunities for research but also criticism on the potential danger of achieving singularity. Artificial intelligence exist in almost every aspect of our daily lives now.  As technology advances and big data branch out, we need a secure way of monitoring and handling AI’s functionalities. The continuous increase of data transmitted electronically has led also to an increased need for and reliance on cryptography. Therefore, integration of AI with blockchain and quantum cryptography is promising. Blockchains introduced three new characteristics to ai: shared control, audit trails, and exchanges. However, its current platforms rely on digital signatures, which are vulnerable to attacks by means of quantum computers. Fortunately quantum cryptography is a proven and secure method of avoiding these attacks.
-
-
-
-### Simple Outline
-
-•	Introduction
-
-•	History of AI and how the idea of singularity came to be. 
-
-•	Discuss the fears of singularity
-
-•	Brief introduction to block-chain(pros/cons)
-
-•	Ways of incorporating AI into block-chain technology
-
-•	Brief introduction to quantum mechanics.
-
-•	The potential of quantum mechanics and quantum computers to boost security of block-chain. 
-
-•	Conclusion 
+AI technologies are advancing so fast that they are now used in many mainstream applications. The growing numbers of smarter AI raises concern in their effectiveness of making autonomous decision. Understanding the traveling salesman problem will help locate some issues within modern AI technology use by big companies like YouTube. YouTube uses AI to moderate and control the types of videos that shows up to the user. Evaluating its algorithm reveals that the system has certain flaws YouTube is failing to address. Self-driving cars are another hot topic that use AI to make important decisions. How does an AI determine which decision is better than the others and is it morally right? As technology extends human tasks, it is important to evaluate inseparable scenarios between humans and machine. 
