@@ -13,5 +13,5 @@
 
 
 
-<a href="https://docs.google.com/document/d/1PC9VuAxmoklIShWNpXPB05NnreNw7C3aURQjAYkQQA0/edit?usp=sharing">Final Paper</a>
+<a href="">Final Paper</a> / Disabled 
 
