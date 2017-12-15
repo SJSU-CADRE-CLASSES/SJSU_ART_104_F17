@@ -1,6 +1,8 @@
 Bibliography
 
 
+
+
 Albright, Jonathan. “Welcome to the Era of Fake News.” Cogitatio. June 2017. http://dx.doi.org/10.17645/mac.v5i2.977
 
 Andolfatto, David. “Can the blockchain kill fake news?” Blogspot.com. December 30, 2016. http://andolfatto.blogspot.com/2016/12/can-blockchain-kill-fake-news.html  
