@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="css/mystyle3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+
+<body>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding";" style="">SWITCH</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-right w3-top w3-text-black w3-medium" style="z-index:3;width:200px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">&#10005;</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">HOME</a> 
+  <a href="http://switch.sjsu.edu/archives" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">ARCHIVES</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">ABOUT</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CONTACT</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">PEOPLE</a>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+
+
+
+<!-- First Grid 
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content" >
+    <div class="w3-twothird" >     
+    </div>-->
+
+    <div class="w3-third w3-center">
+      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
+    </div>
+  </div>
+</div>
+
+		<div id="container"></div>
+
+		<script src="js/three.js"></script>
+
+		<script src="js/Detector.js"></script>
+		<script src="js/stats.min.js"></script>
+		<script src="js/OrbitControls.js"></script>
+
+		<script>
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			var container, stats;
+			var camera, scene, renderer;
+			var mesh, mesh1, mesh2, mesh3, light;
+			var mouseX = 0, mouseY = 0;
+			var windowHalfX = window.innerWidth / 2;
+			var windowHalfY = window.innerHeight / 2;
+			geometry = new THREE.IcosahedronGeometry(150, 0);
+			material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading});
+			var materialV = new THREE.LineBasicMaterial({ color: 0x0000ff, linewidth:4 });
+			var geometryV = new THREE.Geometry();
+			var point1x = 0;
+			var point2x = 400;
+			var point3x = -400;
+			var point4x = -800;
+			var point5x = 800;
+			var point6x = 0;
+
+			var loader = new THREE.FontLoader();
+			loader.load( 'helvetiker_regular.typeface.json', function ( font ) {
+
+					var xMid, text;
+					var textShape = new THREE.BufferGeometry();
+					var color = 0x000000;
+					var matDark = new THREE.LineBasicMaterial( {
+						color: color,
+						side: THREE.DoubleSide
+					} );
+					var matLite = new THREE.MeshBasicMaterial( {
+						color: color,
+						transparent: true,
+						opacity: 0.4,
+						side: THREE.DoubleSide
+					} );
+					var message = "SWITCH";
+					var shapes = font.generateShapes( message, 100, 2 );
+					var geometry = new THREE.ShapeGeometry( shapes );
+					geometry.computeBoundingBox();
+					xMid = - 0.5 * ( geometry.boundingBox.max.x - geometry.boundingBox.min.x );
+					geometry.translate( xMid, 0, 0 );
+					// make shape ( N.B. edge view not visible )
+					textShape.fromGeometry( geometry );
+					text = new THREE.Mesh( textShape, matLite );
+					text.position.z =  300;
+					scene.add( text );
+					// make line shape ( N.B. edge view remains visible )
+					var holeShapes = [];
+					for ( var i = 0; i < shapes.length; i ++ ) {
+						var shape = shapes[ i ];
+						if ( shape.holes && shape.holes.length > 0 ) {
+							for ( var j = 0; j < shape.holes.length; j ++ ) {
+								var hole = shape.holes[ j ];
+								holeShapes.push( hole );
+							}
+						}
+					}
+					shapes.push.apply( shapes, holeShapes );
+					var lineText = new THREE.Object3D();
+					for ( var i = 0; i < shapes.length; i ++ ) {
+						var shape = shapes[ i ];
+						var points = shape.getPoints();
+						var geometry = new THREE.BufferGeometry().setFromPoints( points );
+						
+						geometry.translate( xMid, 0, 0 );
+						var lineMesh = new THREE.Line( geometry, matDark );
+						lineText.add( lineMesh );
+					}
+					scene.add( lineText );
+				} ); //end load function
+
+			init();
+			animate();
+			function init() {
+				container = document.getElementById( 'container' );
+				camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.z = 1800;
+				scene = new THREE.Scene();
+				light = new THREE.DirectionalLight( 0xffffff );
+				light.position.set( 0, 0, 1 ).normalize();
+				scene.add( light );
+				scene.background = new THREE.Color( 0xffffff );
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+				stats = new Stats();
+				container.appendChild( stats.dom );
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+				//
+				window.addEventListener( 'resize', onWindowResize, false );
+				createScene1();
+				createScene2();
+				createScene3();
+				createScene4();
+				createScene5();
+				createScene6();
+				vectorLines();
+			}
+			function onWindowResize() {
+				windowHalfX = window.innerWidth / 2;
+				windowHalfY = window.innerHeight / 2;
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+			function createScene1() {
+				mesh1 = new THREE.Mesh(geometry, material);
+				scene.add(mesh1);
+				mesh1.position.x = point1x;
+				mesh1.position.y = point1x;
+				mesh1.position.z = point1x;
+			}
+			function createScene2() {
+				mesh2 = new THREE.Mesh(geometry, material);
+				scene.add(mesh2);
+				mesh2.position.x = point2x;
+				mesh2.position.y = point2x;
+				mesh2.position.z = point2x;
+			}
+			function createScene3() {
+				mesh3 = new THREE.Mesh(geometry, material);
+				scene.add(mesh3);
+				mesh3.position.x = point3x;
+				mesh3.position.y = point3x;
+				mesh3.position.z = point3x;
+			}
+			function createScene4() {
+				mesh4 = new THREE.Mesh(geometry, material);
+				scene.add(mesh4);
+				mesh4.position.x = point4x;
+				mesh4.position.y = point4x;
+				mesh4.position.z = point4x;
+			}
+			function createScene5() {
+				mesh5 = new THREE.Mesh(geometry, material);
+				scene.add(mesh5);
+				mesh5.position.x = point5x;
+				mesh5.position.y = point1x;
+				mesh5.position.z = point5x;
+			}
+			function createScene6() {
+				mesh6 = new THREE.Mesh(geometry, material);
+				scene.add(mesh6);
+				mesh6.position.x = point1x;
+				mesh6.position.y = point2x;
+				mesh6.position.z = point2x;
+			}
+			function vectorLines() {
+				geometryV.vertices.push(new THREE.Vector3(point1x, point2x, point2x));
+				geometryV.vertices.push(new THREE.Vector3(point1x, 0, 0));
+				geometryV.vertices.push(new THREE.Vector3(point2x, point2x, point2x));
+				geometryV.vertices.push(new THREE.Vector3(point1x, 0, 0));
+				geometryV.vertices.push(new THREE.Vector3(point3x, point3x, point3x));
+				geometryV.vertices.push(new THREE.Vector3(point1x, 0, 0));
+				geometryV.vertices.push(new THREE.Vector3(point4x, point4x, point4x));
+				geometryV.vertices.push(new THREE.Vector3(point1x, 0, 0));
+				geometryV.vertices.push(new THREE.Vector3(point5x, point1x, point5x));
+
+				var line = new THREE.Line(geometryV, materialV);
+				scene.add(line);
+
+				// geometryC = new THREE.CylinderGeometry(10, 10, 200, 31, 50, false);
+				// materialC = new THREE.MeshPhongMaterial({shading: THREE.FlatShading, color: 0x918787, ambient: 0xffffff, emissive: 0x000000, specular: 0x000000, shininess: 30});
+				// meshC = new THREE.Mesh(geometryC, materialC);
+				// //meshC.rotation.y = 90;
+				// //meshC.rotation.x = 45;
+				// meshC.rotation.z = 1.58;
+				// scene.add(meshC);
+
+			}
+			function onDocumentMouseMove( event ) {
+				mouseX = ( event.clientX - windowHalfX );
+				mouseY = ( event.clientY - windowHalfY );
+			}
+			//
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+				stats.update();
+			}
+			function render() {
+				camera.position.x += ( mouseX - camera.position.x ) * 0.05;
+				camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+				camera.lookAt( scene.position );
+				if ( mesh1 ) {
+					mesh1.rotation.x += 0.01;
+					mesh1.rotation.y += 0.01;
+				}
+				if ( mesh2 ) {
+					mesh2.rotation.x += 0.01;
+					mesh2.rotation.y += 0.01;
+				}
+				if ( mesh3 ) {
+					mesh3.rotation.x += 0.01;
+					mesh3.rotation.y += 0.01;
+				}
+				if ( mesh4 ) {
+					mesh4.rotation.x += 0.01;
+					mesh4.rotation.y += 0.01;
+				}
+				if ( mesh5 ) {
+					mesh5.rotation.x += 0.01;
+					mesh5.rotation.y += 0.01;
+				}
+				if ( mesh6 ) {
+					mesh6.rotation.x += 0.01;
+					mesh6.rotation.y += 0.01;
+				}
+				renderer.render( scene, camera );
+			}
+		</script>
+
+	 <!-- About section -->
+  <div class="w3-container w3-black w3-center w3-text-light-grey w3-padding-32" id="about " >
+    
+   
+    <div class="w3-content w3-justify" style=" padding:  0 10% 10% 10%">
+      <h4>ABOUT US</h4>
+      <hr class="w3-opacity">
+      <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </div>
+       
+  </div>
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center" >  
+ <div class="w3-small">
+
+  <h1>Subscription Form</h1>
+
+    <form action="" class="w3-medium w3-padding-16">
+      <input type="email" name="email" class="formStyle"  placeholder="Email (required)" required />
+      <a href="#" class="formButton w3-medium" style="color: black">SUBSCRIBE</a>
+    </form>
+    
+    <div class="w3-large w3-padding-16">
+    <p>Powered by <a href="http://cadre.sjsu.edu/" target="_blank">CADRE</a></p>
+  </div>
+</footer>
+
+
+
+
+ <script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+</script>
+
+
+
+
+</body>
+</html>
+
+  
+</html>
