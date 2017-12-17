@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: #ffffff;
+				margin: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script src="http://threejsplaygnd.brangerbriz.net/js/three.min.js"></script>
+		<script src="http://threejsplaygnd.brangerbriz.net/js/Detector.js"></script>
+		<script>
+
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			
+			var camera, scene, renderer, effect;
+			var material, mesh;
+			var mouseX = 0, mouseY = 0;
+			var windowHalfX = window.innerWidth / 2;
+			var windowHalfY = window.innerHeight / 2;
+			var geometry1, geometry2, geometry3, geometry4, geometry5,  geometry6, geometry7, geometry8, geometry9, geometry10, geometry11, geometry12, geometry13, geometry14, geometry15, geometry16, geometry17, geometry18, geometry19;
+			init();
+			animate();
+			
+			function init() {
+
+				var W = window.innerWidth, H = window.innerHeight;
+				renderer = new THREE.WebGLRenderer();
+				renderer.setSize( W, H );
+				document.body.appendChild( renderer.domElement );
+
+				camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 100000 );
+				camera.position.z = 500;
+
+				scene = new THREE.Scene();
+				
+
+				gridma();
+			}
+			
+			function gridma() {
+				// paste your code from the geometryGUI here
+				geometry1 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry2 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry3 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry4 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry5 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry6 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry7 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry8 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry9 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry10 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry11 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry12 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry13 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry14 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry15 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry16 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry17 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry18 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				geometry19 = new THREE.PlaneGeometry(280, 125, 17, 9);
+				
+				material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading, side: THREE.DoubleSide, wireframe: true, wireframeLinewidth: 1});
+				
+				
+					mesh1 = new THREE.Mesh(geometry1, material);
+				mesh1.position.x = -80;
+				//mesh1.rotation.y = -20;
+					scene.add(mesh1);
+				mesh2 = new THREE.Mesh(geometry2, material);
+				mesh2.position.x = -60;
+				//mesh2.rotation.y = -20;
+					mesh2.position.z = -20;
+					scene.add(mesh2);
+				mesh3 = new THREE.Mesh(geometry3, material);
+				mesh3.position.x = -40;
+				//mesh3.rotation.y = -20;
+					mesh3.position.z = -40;
+					scene.add(mesh3);
+				mesh4 = new THREE.Mesh(geometry4, material);
+				mesh4.position.x = -20;
+				//mesh4.rotation.y = -20;
+					mesh4.position.z = -60;
+					scene.add(mesh4);
+				mesh5 = new THREE.Mesh(geometry5, material);
+				mesh5.position.x = 0;
+				//mesh5.rotation.y = -20;
+					mesh5.position.z = -80;
+					scene.add(mesh5);
+				mesh6 = new THREE.Mesh(geometry6, material);
+				mesh6.position.x = 20;
+				//mesh6.rotation.y = -20;
+					mesh6.position.z = -100;
+					scene.add(mesh6);
+				mesh7 = new THREE.Mesh(geometry7, material);
+				mesh7.position.x = 40;
+				//mesh7.rotation.y = -20;
+					mesh7.position.z = -120;
+					scene.add(mesh7);
+				mesh8 = new THREE.Mesh(geometry8, material);
+				mesh8.position.x = 60;
+				//mesh8.rotation.y = -20;
+					mesh8.position.z = -140;
+					scene.add(mesh8);
+				mesh9 = new THREE.Mesh(geometry9, material);
+				mesh9.position.x = 80;
+				//mesh9.rotation.y = -20;
+					mesh9.position.z = -160;
+					scene.add(mesh9);
+				mesh10 = new THREE.Mesh(geometry10, material);
+				mesh10.position.x = 100;
+				//mesh10.rotation.y = -20;
+					mesh10.position.z = -180;
+					scene.add(mesh10);
+				mesh11 = new THREE.Mesh(geometry11, material);
+				mesh11.position.x = 120;
+				//mesh11.rotation.y = -20;
+					mesh11.position.z = -200;
+					scene.add(mesh11);
+				mesh12 = new THREE.Mesh(geometry12, material);
+				mesh12.position.x = 140;
+				//mesh12.rotation.y = -20;
+					mesh12.position.z = -220;
+					scene.add(mesh12);
+				mesh13 = new THREE.Mesh(geometry13, material);
+				mesh13.position.x = 160;
+				//mesh13.rotation.y = -20;
+					mesh13.position.z = -240;
+					scene.add(mesh13);
+				mesh14 = new THREE.Mesh(geometry14, material);
+				mesh14.position.x = 180;
+				//mesh14.rotation.y = -20;
+					mesh14.position.z = -260;
+					scene.add(mesh14);
+				mesh15 = new THREE.Mesh(geometry15, material);
+				mesh15.position.x = 200;
+				//mesh15.rotation.y = -20;
+					mesh15.position.z = -280;
+					scene.add(mesh15);
+				mesh16 = new THREE.Mesh(geometry16, material);
+				mesh16.position.x = 220;
+				//mesh16.rotation.y = -20;
+					mesh16.position.z = -300;
+					scene.add(mesh16);
+				mesh17 = new THREE.Mesh(geometry17, material);
+				mesh17.position.x = 240;
+				//mesh17.rotation.y = -20;
+					mesh17.position.z = -320;
+					scene.add(mesh17);
+				mesh18 = new THREE.Mesh(geometry18, material);
+				mesh18.position.x = 260;
+				//mesh18.rotation.y = -20;
+					mesh18.position.z = -340;
+					scene.add(mesh18);
+				mesh19 = new THREE.Mesh(geometry19, material);
+				mesh19.position.x = 280;
+				//mesh19.rotation.y = -20;
+					mesh19.position.z = -360;
+					scene.add(mesh19);
+				
+				
+			
+			}
+
+			function render() {
+
+				requestAnimationFrame( render );
+				var timer = 0.0001 * Date.now();
+				//camera.position.x += ( mouseX - camera.position.x ) * .05;
+				//camera.position.y += ( - mouseY - camera.position.y ) * .05;
+				//camera.lookAt( scene.position );
+				
+				// experiment with code from the snippets menu here
+				//mesh1.rotation.x = Date.now() * 0.0005;	
+				//mesh1.rotation.y = Date.now() * 0.0002;	
+				//mesh1.rotation.z = Date.now() * 0.001;
+				
+				mesh1.rotation.y = Date.now() * 0.0005;	
+				mesh2.rotation.y = Date.now() * 0.0005;	
+				mesh3.rotation.y = Date.now() * 0.0005;	
+				mesh4.rotation.y = Date.now() * 0.0005;	
+				mesh5.rotation.y = Date.now() * 0.0005;	
+				mesh6.rotation.y = Date.now() * 0.0005;	
+				mesh7.rotation.y = Date.now() * 0.0005;	
+				mesh8.rotation.y = Date.now() * 0.0005;	
+				mesh9.rotation.y = Date.now() * 0.0005;	
+				mesh10.rotation.y = Date.now() * 0.0005;	
+				mesh11.rotation.y = Date.now() * 0.0005;	
+				mesh12.rotation.y = Date.now() * 0.0005;	
+				mesh13.rotation.y = Date.now() * 0.0005;	
+				mesh14.rotation.y = Date.now() * 0.0005;	
+				mesh15.rotation.y = Date.now() * 0.0005;	
+				mesh16.rotation.y = Date.now() * 0.0005;	
+				mesh17.rotation.y = Date.now() * 0.0005;	
+				mesh18.rotation.y = Date.now() * 0.0005;	
+				mesh19.rotation.y = Date.now() * 0.0005;	
+				
+				
+				renderer.render( scene, camera );
+				effect.render( scene, camera );
+				
+
+			}
+			
+
+			
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+			}
+
+			
+
+
+		</script>
+		
+	</body>
+</html>

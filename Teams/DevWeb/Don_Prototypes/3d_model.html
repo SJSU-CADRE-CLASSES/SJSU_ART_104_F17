@@ -1,0 +1,213 @@
+<html>
+<title>Basic_Index</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="http://dma.sjsu.edu/art106/d_vo/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="http://dma.sjsu.edu/art106/d_vo/Readings/Readings.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Readings</a>
+    <a href="http://dma.sjsu.edu/art106/d_vo/Projects/Project_page.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+    <a href="#fall2017" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Fall 2017</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE<i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="http://dma.sjsu.edu/art106/d_vo/index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="http://dma.sjsu.edu/art106/d_vo/Readings/Readings.html" class="w3-bar-item w3-button w3-padding-large">Readings</a> 
+  <a href="http://dma.sjsu.edu/art106/d_vo/Projects/Project_page.html" class="w3-bar-item w3-button w3-padding-large">Projects</a> 
+  <a href="#fall2017" class="w3-bar-item w3-button w3-padding-large">Fall 2017</a>
+</div>
+<body>
+
+    <canvas id="myCanvas"></canvas>
+
+    <script src="js/three.js"></script>
+
+    <script>
+        //RENDERER
+        var renderer = new THREE.WebGLRenderer({canvas: document.getElementById('myCanvas'), antialias: true});
+        renderer.setClearColor(0xffffff);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        //CAMERA
+        var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 3000);
+        
+        //SCENE
+        var scene = new THREE.Scene();
+        //LIGHTS
+        var light = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(light);
+        
+        var light1 = new THREE.PointLight(0xffffff, 0.5);
+        scene.add(light1);
+
+        //MODEL
+        var loader = new THREE.JSONLoader();
+        loader.load('true_Switch_logo.json', handle_load);
+
+        var mesh;
+        var mixer;
+
+        //OBJECT
+        function handle_load(geometry, materials) {
+        var material = new THREE.MeshLambertMaterial({morphTargets: true});
+
+        mesh = new THREE.Mesh(geometry, material);
+        scene.add(mesh);
+        mesh.position.z = -10;
+
+
+        //MIXER
+        mixer = new THREE.AnimationMixer(mesh);
+
+        var clip = THREE.AnimationClip.CreateFromMorphTargetSequence('talk', geometry.morphTargets, 30);
+        mixer.clipAction(clip).setDuration(1).play();
+    }
+
+
+        //RENDER LOOP
+        render();
+
+        var delta = 0;
+        var prevTime = Date.now();
+
+        function render() {
+
+        delta += 0.1;
+
+        if (mesh) {
+        
+            mesh.rotation.y += 0.01;
+
+            //animation mesh
+            // mesh.morphTargetInfluences[ 0 ] = Math.sin(delta) * 20.0;
+        }
+
+        if (mixer) {
+            var time = Date.now();
+            mixer.update((time - prevTime) * 0.001);
+            prevTime = time;
+        }
+
+      renderer.render(scene, camera);
+
+      requestAnimationFrame(render);
+    }
+    </script>
+
+    <!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+
+    <div class="w3-quarter">
+      <a href="http://dma.sjsu.edu/art106/d_vo/Projects/Project_LED.html">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/led_on.jpg" alt="led_front" style="width:100%">
+    </a>
+      <h3>LED Cyborg Head</h3> 
+      <p>by Don, Aldo, Abby, and Joe</p>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="http://dma.sjsu.edu/art106/d_vo/Projects/Project_Amp_Gang.html">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/amp_final.jpg" alt="amp" style="width:100%">
+    </a>
+      <h3>Amp Gang</h3> 
+      <p>Portable Speaker</p>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="http://dma.sjsu.edu/art106/d_vo/Projects/Project_Magnet_Skin.html">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/magnet_pull.jpg" alt="magnet" style="width:100%">
+    </a>
+      <h3>Magnet Sensation</h3> 
+      <p>on shoulder...</p>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="http://dma.sjsu.edu/art106/d_vo/Projects/porto-micro.html">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/micro.jpg" alt="micro" style="width:100%">
+    </a>
+      <h3>Porto-Micro</h3> 
+      <p>inprogress</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/comingsoon.jpg" alt="Popsicle" style="width:100%">
+      <h3>IDK</h3>
+      <p>by Team ScandalousPenguins</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/comingsoon.jpg" alt="Salmon" style="width:100%">
+      <h3>Iron Man Armor</h3>
+      <p>Once again, some random text</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/comingsoon.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Cat</h3>
+      <p>Just some random text</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://dma.sjsu.edu/art106/d_vo/Images_d/comingsoon.jpg" alt="Croissant" style="width:100%">
+      <h3>GG</h3>
+      <p>Fighto!!!</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+  
+  
+  <hr>
+  
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>

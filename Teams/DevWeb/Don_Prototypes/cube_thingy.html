@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: #ffffff;
+				margin: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script src="http://threejsplaygnd.brangerbriz.net/js/three.min.js"></script>
+		<script src="http://threejsplaygnd.brangerbriz.net/js/Detector.js"></script>
+		<script src="OrbitControls.js"></script>
+		<script src="stats.min.js"></script>
+		<script>
+
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			
+			var camera, scene, renderer;
+			var geometry, material, mesh;
+			var stats;
+
+			function setup() {
+
+				var W = window.innerWidth, H = window.innerHeight;
+				renderer = new THREE.WebGLRenderer();
+				renderer.setSize( W, H );
+				document.body.appendChild( renderer.domElement );
+
+				camera = new THREE.PerspectiveCamera( 50, W/H, 1, 10000 );
+				camera.position.z = 500;
+
+				scene = new THREE.Scene();
+
+				init();
+
+			}
+				
+
+			function init() {
+				var length = 17;
+				var width = 9;
+				
+				for ( var i = 0; i < length; i ++ ) {
+				
+				geometry = new THREE.CubeGeometry(50, 50, 50);
+				material = new THREE.MeshNormalMaterial({shading: THREE.SmoothShading});
+				mesh = new THREE.Mesh(geometry, material);
+				// 	mesh2 = new THREE.Mesh(geometry, material);
+				// 	mesh2.castShadow = true;
+				// 	scene.add(mesh2);
+				// 	mesh3 = new THREE.Mesh(geometry, material);
+				// 	mesh3.castShadow = true;
+				// 	scene.add(mesh3);
+				// 	mesh4 = new THREE.Mesh(geometry, material);
+				// 	mesh4.castShadow = true;
+				// 	scene.add(mesh4);
+					
+				 mesh.castShadow = true;
+				 scene.add(mesh);
+					
+				// mesh.position.x = -1000 + ( i * 125);
+				// mesh.position.y = -1000 + ( i * 125);
+				// mesh2.position.x = -1000 + ( i * 125);
+				// mesh2.position.y = 1000 + ( i * -125);
+				// mesh3.position.x = -1000 + ( i * 125);
+				// mesh4.position.y = -1000 + ( i * 125);
+
+				mesh.position.x = -500 + (i * 100);
+
+				// for ( var z = 0; z < width; z ++) {
+				// 	mesh2 = new THREE.Mesh(geometry, material);
+				//  	mesh2.castShadow = true;
+				//  	scene.add(mesh2);
+				//  	mesh.position.y = -500 + (z * 100);
+				// }
+				
+				}
+
+
+			}
+
+			function draw() {
+
+				requestAnimationFrame( draw );
+				
+				// experiment with code from the snippets menu here
+
+				renderer.render( scene, camera );
+
+			}
+
+			setup();
+			draw();
+
+		</script>
+		
+	</body>
+</html>

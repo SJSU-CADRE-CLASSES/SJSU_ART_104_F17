@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - io blender - vertex colors</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				color: #eee;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				background-color: #ffffff;
+				margin: 0px;
+				padding: 0px;
+				overflow: hidden;
+			}
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				padding: 5px;
+			}
+			a {
+				color: #0080ff;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+		<script src="js/three.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/stats.min.js"></script>
+
+		<script>
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			var container, stats;
+			var camera, scene, renderer;
+			var mesh, mesh1, mesh2, mesh3, light;
+			var mouseX = 0, mouseY = 0;
+			var windowHalfX = window.innerWidth / 2;
+			var windowHalfY = window.innerHeight / 2;
+			geometry = new THREE.CubeGeometry(100, 100, 100);
+			geometryMain = new THREE.CubeGeometry(200, 200, 200);
+			material = new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff });
+			var materialV = new THREE.LineBasicMaterial({ color: 0x0000ff, linewidth:4 });
+			var geometryV = new THREE.Geometry();
+			var point1x = 0;
+			var point2x = Math.random() + 200;
+			var point3x = Math.random() - 400;
+			var point4x = Math.random() -700;
+			var point5x = Math.random() + 500;
+			var point6x = Math.random() + 600;
+
+
+			init();
+			animate();
+
+
+			function init() {
+				container = document.getElementById( 'container' );
+				camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+				camera.position.z = 1800;
+				scene = new THREE.Scene();
+
+				light = new THREE.DirectionalLight( 0xffffff );
+				light.position.set( 0, 0, 1 ).normalize();
+				scene.add( light );
+
+				scene.background = new THREE.Color( 0xffffff );
+
+				raycaster = new THREE.Raycaster();
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+				stats = new Stats();
+				container.appendChild( stats.dom );
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+				//
+				window.addEventListener( 'resize', onWindowResize, false );
+
+				for ( var i = 0; i < 6; i ++ ) {
+					var object = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff } ) );
+					object.position.x = Math.random() * 800 - 400 + 50 * i;
+					object.position.y = Math.random() * 800 - 400 + 50 * i;
+					object.position.z = Math.random() * 800 - 400 + 50 * i;
+					object.rotation.x = Math.random() * 2 * Math.PI;
+					object.rotation.y = Math.random() * 2 * Math.PI;
+					object.rotation.z = Math.random() * 2 * Math.PI;
+					scene.add( object ); 
+
+					geometryV.vertices.push(new THREE.Vector3(object.position.x, object.position.y, object.position.z)); 
+					geometryV.vertices.push(new THREE.Vector3(0, 0, 0));
+
+					var line = new THREE.Line(geometryV, materialV);
+					scene.add(line);
+				}
+
+				createScene1();
+			}
+
+
+			function createScene1() {
+				mesh1 = new THREE.Mesh(geometryMain, material);
+				scene.add(mesh1);
+				mesh1.position.x = point1x;
+				mesh1.position.y = point1x;
+				mesh1.position.z = point1x;
+			}
+			
+			function getRandomInt(min, max) {
+  				min = Math.ceil(-800);
+  				max = Math.floor(800);
+  				return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+}
+			function onWindowResize() {
+				windowHalfX = window.innerWidth / 2;
+				windowHalfY = window.innerHeight / 2;
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+			function onDocumentMouseMove( event ) {
+				event.preventDefault();
+				mouseX = ( event.clientX - windowHalfX );
+				mouseY = ( event.clientY - windowHalfY );
+			}
+			//
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+				stats.update();
+			}
+			function render() {
+				camera.position.x += ( mouseX - camera.position.x ) * 0.05;
+				camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+				camera.lookAt( scene.position );
+				if ( mesh1 ) {
+					//mesh1.rotation.x += 0.01;
+					mesh1.rotation.y += 0.01;
+				}
+				
+				
+				renderer.render( scene, camera );
+			}
+		</script>
+
+	</body>
+</html>

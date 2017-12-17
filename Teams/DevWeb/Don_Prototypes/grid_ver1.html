@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: #ffffff;
+				margin: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script src="three.min.js"></script>
+		<script src="Detector.js"></script>
+		<script src="StereoEffect.js"></script>
+		<script>
+
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+			
+			var camera, scene, renderer, effect;
+			var geometry, material, mesh;
+			var mouseX = 0, mouseY = 0;
+			var windowHalfX = window.innerWidth / 2;
+			var windowHalfY = window.innerHeight / 2;
+			init();
+			animate();
+			
+			function init() {
+
+				var W = window.innerWidth, H = window.innerHeight;
+				renderer = new THREE.WebGLRenderer();
+				renderer.setSize( W, H );
+				document.body.appendChild( renderer.domElement );
+
+				camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 100000 );
+				camera.position.z = 500;
+
+				scene = new THREE.Scene();
+				
+
+				gridma();
+			}
+			
+			function gridma() {
+				var num = 20;
+				// paste your code from the geometryGUI here
+				for ( var i = 0; i < num; i++){
+				geometry = new THREE.PlaneGeometry(280, 125, 17, 9);
+				material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading, side: THREE.DoubleSide, wireframe: true, wireframeLinewidth: 1});
+				mesh = new THREE.Mesh(geometry, material);
+				mesh.position.z = 10 * i;
+				mesh.position.x = -80 + 10 * i;
+				mesh.rotation.y = -15;
+				scene.add(mesh);
+				}
+			
+			}
+
+			function render() {
+
+				requestAnimationFrame( render );
+				var timer = 0.0001 * Date.now();
+				camera.position.x += ( mouseX - camera.position.x ) * .05;
+				camera.position.y += ( - mouseY - camera.position.y ) * .05;
+				camera.lookAt( scene.position );
+				
+				// experiment with code from the snippets menu here
+				//mesh.rotation.x = Date.now() * 0.0005;	
+				//mesh.rotation.y = Date.now() * 0.0002;	
+				//mesh.rotation.z = Date.now() * 0.001;
+
+				renderer.render( scene, camera );
+				effect.render( scene, camera );
+				
+
+			}
+			
+			function onDocumentMouseMove( event ) {
+				mouseX = ( event.clientX - windowHalfX ) * 10;
+				mouseY = ( event.clientY - windowHalfY ) * 10;
+			}
+			
+			function animate() {
+				requestAnimationFrame( animate );
+				render();
+			}
+
+			
+			render();
+
+		</script>
+		
+	</body>
+</html>
