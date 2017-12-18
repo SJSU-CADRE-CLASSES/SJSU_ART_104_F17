@@ -10,7 +10,7 @@
   2. All articles should be placed into the "article_threejs.html"<br>
   3. Abstracts or team bios should be placed into "about_threejs.html"<br>
   4. Contact is basically "contact.html"<br>
-  5. Another visual made in Three.js is in the Folder "Yi"<br>
+  5. Other work done are in Folder "Yi", "Leily3js", and "Roya_Template"<br>
   </p>
   <p>
   <h3>Team Contribution</h3> <br>
